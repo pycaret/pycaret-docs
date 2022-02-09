@@ -8,21 +8,51 @@ description: Data preprocessing and transformations in PyCaret
 
 {% tabs %}
 {% tab title="Data Preparation" %}
-[Missing Values](data-preparation.md#missing-values)
+#### [Missing Values](data-preparation.md#missing-values)
 
-[Data Types](data-preparation.md#data-types)
+Datasets for various reasons may have missing values or empty records, often encoded as blanks or `NaN`. Most of the machine learning algorithms are not capable of dealing with the missing values. [Learn More.](data-preparation.md#missing-values)
 
-[One-Hot Encoding](data-preparation.md#one-hot-encoding)
 
-[Ordinal Encoding](data-preparation.md#ordinal-encoding)
 
-[Cardinal Encoding](data-preparation.md#cardinal-encoding)
+#### [Data Types](data-preparation.md#data-types)
 
-[Handle Unknown Levels](data-preparation.md#handle-unknown-levels)
+Each feature in the dataset has an associated data type such as numeric, categorical, or Datetime. PyCaret automatically detects the data type of each feature. [Learn More.](data-preparation.md#data-types)
 
-[Target Imbalance](data-preparation.md#target-imbalance)
 
-[Remove Outliers](data-preparation.md#remove-outliers)
+
+#### [One-Hot Encoding](data-preparation.md#one-hot-encoding)
+
+Categorical features in the dataset contain the label values (ordinal or nominal) rather than continuous numbers. Most of the machine learning algorithms are not capable of handling categorical data without encoding. [Learn More.](data-preparation.md#one-hot-encoding)
+
+
+
+#### [Ordinal Encoding](data-preparation.md#ordinal-encoding)
+
+When the categorical features in the dataset contain variables with intrinsic natural order such as _Low, Medium, and High_, these must be encoded differently than nominal variables (where there is no intrinsic order for e.g. Male or Female). [Learn More.](data-preparation.md#ordinal-encoding)
+
+
+
+#### [Cardinal Encoding](data-preparation.md#cardinal-encoding)
+
+When categorical features in the dataset contain variables with many levels (also known as high cardinality features), then typical One-Hot Encoding leads to the creation of a very large number of new features. [Learn More.](data-preparation.md#cardinal-encoding)
+
+
+
+#### [Handle Unknown Levels](data-preparation.md#handle-unknown-levels)
+
+When categorical features in the dataset contain unseen variables at the time of predictions, it may cause problems for the trained model as those levels were not present at the time of training. [Learn More.](data-preparation.md#handle-unknown-levels)
+
+
+
+#### [Target Imbalance](data-preparation.md#target-imbalance)
+
+When the training dataset has an unequal distribution of target class it can be fixed using the `fix_imbalance` parameter in the setup. [Learn More.](data-preparation.md#target-imbalance)
+
+
+
+#### [Remove Outliers](data-preparation.md#remove-outliers)
+
+The **** `remove_outliers` **** function in PyCaret allows you to identify and remove outliers from the dataset before training the model. [Learn More.](data-preparation.md#remove-outliers)
 {% endtab %}
 
 {% tab title="Scale and Transform" %}
