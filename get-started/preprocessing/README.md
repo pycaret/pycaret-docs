@@ -56,11 +56,21 @@ The **** `remove_outliers` **** function in PyCaret allows you to identify and r
 {% endtab %}
 
 {% tab title="Scale and Transform" %}
-[Normalize](scale-and-transform.md#normalize)
+#### [Normalize](scale-and-transform.md#normalize)
 
-[Feature Transform](scale-and-transform.md#feature-transform)
+Normalization is a technique often applied as part of data preparation for machine learning. The goal of normalization is to rescale the values of numeric columns in the dataset without distorting the differences in the ranges of values. [Learn More.](scale-and-transform.md#normalize)
 
-[Target Transform](scale-and-transform.md#target-transform)
+
+
+#### [Feature Transform](scale-and-transform.md#feature-transform)
+
+While normalization rescales the data within new limits to reduce the impact of magnitude in the variance, Feature transformation is a more radical technique. Transformation changes the shape of the distribution. [Learn More.](scale-and-transform.md#feature-transform)
+
+
+
+#### [Target Transform](scale-and-transform.md#target-transform)
+
+Target Transformation is similar to feature transformation as it will change the shape of the distribution of the target variable instead of the features. [Learn More.](scale-and-transform.md#target-transform)
 {% endtab %}
 
 {% tab title="Feature Engineering" %}
