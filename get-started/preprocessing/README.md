@@ -74,38 +74,62 @@ Target Transformation is similar to feature transformation as it will change the
 {% endtab %}
 
 {% tab title="Feature Engineering" %}
-[Feature Interaction](feature-engineering.md#feature-interaction)
+#### [Feature Interaction](feature-engineering.md#feature-interaction)
 
-[Polynomial Features](feature-engineering.md#polynomial-features)
+####
 
-[Trigonometry Features](feature-engineering.md#trigonometry-features)
+#### [Polynomial Features](feature-engineering.md#polynomial-features)
 
-[Group Features](feature-engineering.md#group-features)
+####
 
-[Bin Numeric Features](feature-engineering.md#bin-numeric-features)
+#### [Group Features](feature-engineering.md#group-features)
 
-[Combine Rare Levels](feature-engineering.md#combine-rare-levels)
+####
 
-[Create Clusters](feature-engineering.md#create-clusters)
+#### [Bin Numeric Features](feature-engineering.md#bin-numeric-features)
+
+####
+
+#### [Combine Rare Levels](feature-engineering.md#combine-rare-levels)
+
+####
+
+#### [Create Clusters](feature-engineering.md#create-clusters)
 {% endtab %}
 
 {% tab title="Feature Selection" %}
-[Feature Selection](feature-selection.md#feature-selection)
+#### [Feature Selection](feature-selection.md#feature-selection)
 
-[Remove Multicollinearity](feature-selection.md#remove-multicollinearity)
+####
 
-[Principal Component Analysis](feature-selection.md#principal-component-analysis)
+#### [Remove Multicollinearity](feature-selection.md#remove-multicollinearity)
 
-[Ignore Low Variance](feature-selection.md#ignore-low-variance)
+####
+
+#### [Principal Component Analysis](feature-selection.md#principal-component-analysis)
+
+####
+
+#### [Ignore Low Variance](feature-selection.md#ignore-low-variance)
+
+####
 {% endtab %}
 
 {% tab title="Other setup parameters" %}
-[Required Parameters](other-setup-parameters.md#mandatory-parameters)
+#### [Required Parameters](other-setup-parameters.md#mandatory-parameters)
 
-[Experiment Logging](other-setup-parameters.md#experiment-logging)
+####
 
-[Model Selection](other-setup-parameters.md#model-selection)
+#### [Experiment Logging](other-setup-parameters.md#experiment-logging)
 
-[Other Miscellaneous](other-setup-parameters.md#other-miscellaneous)&#x20;
+####
+
+#### [Model Selection](other-setup-parameters.md#model-selection)
+
+####
+
+#### [Other Miscellaneous](other-setup-parameters.md#other-miscellaneous)&#x20;
+
+####
 {% endtab %}
 {% endtabs %}
