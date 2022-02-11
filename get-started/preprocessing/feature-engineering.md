@@ -2,7 +2,7 @@
 
 ### Feature Interaction
 
-It is often seen in machine learning experiments when two features combined through an **arithmetic operation** becomes more significant in explaining variances in the data, than the same two features separately. Creating a new feature through interaction of existing features is known as **feature interaction**. It can achieved in PyCaret using `feature_interaction` and `feature_ratio` __ parameters within [setup](https://www.pycaret.org/setup). Feature interaction creates new features by multiplying two variables (a \* b), while feature ratios create new features but by calculating the ratios of existing features (a / b).
+It is often seen in machine learning experiments when two features combined through an **arithmetic operation** become more significant in explaining variances in the data, than the same two features separately. Creating a new feature through the interaction of existing features is known as **feature interaction**. It can be achieved in PyCaret using `feature_interaction` and `feature_ratio` __ parameters within [setup](https://www.pycaret.org/setup). Feature interaction creates new features by multiplying two variables (a \* b), while feature ratios create new features but by calculating the ratios of existing features (a / b).
 
 #### **PARAMETERS**
 

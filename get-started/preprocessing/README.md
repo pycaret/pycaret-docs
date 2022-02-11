@@ -76,60 +76,87 @@ Target Transformation is similar to feature transformation as it will change the
 {% tab title="Feature Engineering" %}
 #### [Feature Interaction](feature-engineering.md#feature-interaction)
 
-####
+It is often seen in machine learning experiments when two features combined through an arithmetic operation become more significant in explaining variances in the data than the same two features separately. [Learn More.](feature-engineering.md#feature-interaction)
+
+
 
 #### [Polynomial Features](feature-engineering.md#polynomial-features)
 
-####
+In machine learning experiments the relationship between the dependent and independent variable is often assumed as linear, however, this is not always the case. Sometimes the relationship between dependent and independent variables is more complex. [Learn More.](feature-engineering.md#polynomial-features)
+
+
 
 #### [Group Features](feature-engineering.md#group-features)
 
-####
+When a dataset contains features that are related to each other in some way, for example, features recorded at some fixed time intervals, then new statistical features such as mean, median, variance, and standard deviation **** for a group of such features. [Learn More.](feature-engineering.md#group-features)
+
+
 
 #### [Bin Numeric Features](feature-engineering.md#bin-numeric-features)
 
-####
+Feature binning is a method of turning continuous variables into categorical values using the pre-defined number of bins. **** It is effective when a continuous feature has too many unique values or few extreme values outside the expected range. [Learn More.](feature-engineering.md#bin-numeric-features)
+
+
 
 #### [Combine Rare Levels](feature-engineering.md#combine-rare-levels)
 
-####
+Sometimes a dataset can have a categorical feature (or multiple categorical features) that has a very high number of levels (i.e. high cardinality features). If such feature (or features) are encoded into numeric values, then the resultant matrix is a sparse matrix. **** [Learn More.](feature-engineering.md#combine-rare-levels)
+
+****
 
 #### [Create Clusters](feature-engineering.md#create-clusters)
+
+Creating Clusters using the existing features from the data is an unsupervised ML technique to engineer and create new features. [Learn More.](feature-engineering.md#create-clusters)
 {% endtab %}
 
 {% tab title="Feature Selection" %}
 #### [Feature Selection](feature-selection.md#feature-selection)
 
-####
+Feature Selection is a process **** used to select features in the dataset that contributes the most in predicting the target variable. Working with selected features instead of all the features reduces the risk of over-fitting, improves accuracy, and decreases the training time. [Learn More.](feature-selection.md#feature-selection)
+
+
 
 #### [Remove Multicollinearity](feature-selection.md#remove-multicollinearity)
 
-####
+Multicollinearity (also called _collinearity_) is a phenomenon in which one feature variable in the dataset is highly linearly correlated with another feature variable in the same dataset. [Learn More.](feature-selection.md#remove-multicollinearity)
+
+
 
 #### [Principal Component Analysis](feature-selection.md#principal-component-analysis)
 
-####
+Principal Component Analysis (PCA) is an unsupervised technique used in machine learning to reduce the dimensionality of the data. It does so by compressing the feature space. [Learn More.](feature-selection.md#principal-component-analysis)
+
+
 
 #### [Ignore Low Variance](feature-selection.md#ignore-low-variance)
 
-####
+Sometimes a dataset may have a categorical feature with multiple levels, where the distribution of such levels is skewed and one level may dominate over other levels. [Learn More.](feature-selection.md#ignore-low-variance)
 {% endtab %}
 
 {% tab title="Other setup parameters" %}
 #### [Required Parameters](other-setup-parameters.md#mandatory-parameters)
 
+There are only two non-optional parameters in the setup function i.e. data and name of the target variable. [Learn More.](other-setup-parameters.md#mandatory-parameters)
+
 ####
 
 #### [Experiment Logging](other-setup-parameters.md#experiment-logging)
 
-####
+PyCaret uses MLflow for experiment tracking. A parameter in the setup can be set to automatically track all the metrics, hyperparameters, and other model artifacts. [Learn More.](other-setup-parameters.md#experiment-logging)
+
+
 
 #### [Model Selection](other-setup-parameters.md#model-selection)
 
-####
+Parameters in the setup can be used for setting parameters for the model selection process. These are not related to data preprocessing but can influence your model selection process. [Learn More.](other-setup-parameters.md#model-selection)
+
+
 
 #### [Other Miscellaneous](other-setup-parameters.md#other-miscellaneous)&#x20;
 
-####
+Other miscellaneous parameters in the setup that are used for controlling experiment settings such as using GPU for training or setting verbosity of the experiment. [Learn More.](other-setup-parameters.md#other-miscellaneous)
 {% endtab %}
 {% endtabs %}
+
+
+
