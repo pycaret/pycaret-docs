@@ -1,5 +1,5 @@
 ---
-description: This page lists all the functions of PyCaret
+description: Functions are sets of actions in PyCaret that perform tasks in a workflow.
 ---
 
 # 💡 Functions

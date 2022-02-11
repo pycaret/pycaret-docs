@@ -102,6 +102,4 @@ For docker image with full version:
 docker run -p 8888:8888 pycaret/full
 ```
 
-## Common Installation Issues
-
-No known issues at this time.
+To learn more, check out [this documentation](https://hub.docker.com/r/pycaret/full).

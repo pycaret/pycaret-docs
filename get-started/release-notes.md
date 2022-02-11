@@ -1,5 +1,5 @@
 ---
-description: This page shows release notes >= 2.0
+description: All release notes of historic releases since 2.0
 ---
 
 # ⚒ Release Notes
