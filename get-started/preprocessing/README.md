@@ -1,5 +1,7 @@
 ---
-description: Data preprocessing and transformations in PyCaret
+description: >-
+  This page lists all the data preprocessing and transformation parameters in
+  the setup
 ---
 
 # ⚙ Preprocessing
