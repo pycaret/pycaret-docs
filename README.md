@@ -5,8 +5,8 @@ coverY: 0
 
 # Welcome to PyCaret
 
-{% hint style="warning" %}
-This documentation is in `beta`. It may change frequently. To propose changes or enhancements, please create a [GitHub Issue](https://github.com/pycaret/pycaret/issues).&#x20;
+{% hint style="info" %}
+**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
 {% endhint %}
 
 PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows. It is an end-to-end machine learning and model management tool that exponentially speeds up the experiment cycle and makes you more productive.

@@ -246,7 +246,7 @@ clf1 = setup(data = credit, target = 'default', fix_imbalance = True)
 
 ### Remove Outliers
 
-The **Remove Outliers** function in PyCaret allows you to identify and remove outliers from the dataset before training the model. Outliers are identified through PCA linear dimensionality reduction using the Singular Value Decomposition technique. It can be achieved using `remove_outliers` parameter within [setup](https://www.pycaret.org/setup). The proportion of outliers are controlled through `outliers_threshold` parameter.
+The **** `remove_outliers` **** function in PyCaret allows you to identify and remove outliers from the dataset before training the model. Outliers are identified through PCA linear dimensionality reduction using the Singular Value Decomposition technique. It can be achieved using `remove_outliers` parameter within [setup](https://www.pycaret.org/setup). The proportion of outliers are controlled through `outliers_threshold` parameter.
 
 #### **PARAMETERS**
 

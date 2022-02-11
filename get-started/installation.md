@@ -4,6 +4,10 @@ description: Learn how to install PyCaret
 
 # 💻 Installation
 
+{% hint style="info" %}
+**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
+{% endhint %}
+
 ## Install
 
 PyCaret is tested and supported on the following 64-bit systems:

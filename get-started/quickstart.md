@@ -4,8 +4,8 @@ description: Quick start guide for beginners
 
 # 🚀 Quickstart
 
-{% hint style="warning" %}
-**NOTE:** We are working to continuously improve the documentation. If you encounter a broken link, please report it on our [GitHub](https://github.com/pycaret/pycaret/issues).
+{% hint style="info" %}
+**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
 {% endhint %}
 
 ## Introduction
