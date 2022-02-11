@@ -22,12 +22,4 @@ description: >-
 | Association Rules Mining - Level Beginner        | Association Rules |               [Source](https://github.com/pycaret/pycaret/blob/master/tutorials/Association%20Rule%20Mining%20Tutorial%20-%20ARUL01.ipynb)              |
 | Time Series Forecasting - Level Beginner         |    Time Series    |                                  [Source](https://github.com/pycaret/pycaret/blob/time\_series/time\_series\_101.ipynb)                                 |
 
-{% hint style="info" %}
-**NOTE:** Links to Google Colab and binder are work-in-progress.
-{% endhint %}
-
-{% hint style="info" %}
-**Contribute!** If you would like to join our documentation team and help us build and maintain this awesome documentation for the community, join the **#docs-revamp** channel on our [Slack](https://join.slack.com/t/pycaret/shared\_invite/zt-row9phbm-BoJdEVPYnGf7\_NxNBP307w).
-{% endhint %}
-
 Looking for video tutorials? [click here](../learn-pycaret/videos.md).
