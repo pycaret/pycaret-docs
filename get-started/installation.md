@@ -70,6 +70,130 @@ With PyCaret, you can train models on GPU and speed up your workflow by 10x. To 
 * Optional dependencies that are installed with `pycaret[full]` are [listed here](installation.md#install-from-pip).
 * Testing requirements are [listed here](https://github.com/pycaret/pycaret/blob/master/requirements-test.txt).
 
+#### Select the tab
+
+{% tabs %}
+{% tab title="requirements" %}
+pandas&#x20;
+
+scipy<=1.5.4&#x20;
+
+seaborn&#x20;
+
+matplotlib&#x20;
+
+IPython&#x20;
+
+joblib&#x20;
+
+scikit-learn==0.23.2&#x20;
+
+ipywidgets&#x20;
+
+yellowbrick>=1.0.1&#x20;
+
+lightgbm>=2.3.1&#x20;
+
+plotly>=4.4.1&#x20;
+
+wordcloud&#x20;
+
+textblob&#x20;
+
+cufflinks>=0.17.0&#x20;
+
+umap-learn&#x20;
+
+pyLDAvis&#x20;
+
+gensim<4.0.0&#x20;
+
+spacy<2.4.0&#x20;
+
+nltk&#x20;
+
+mlxtend>=0.17.0&#x20;
+
+pyod&#x20;
+
+pandas-profiling>=2.8.0&#x20;
+
+kmodes>=0.10.1&#x20;
+
+mlflow&#x20;
+
+imbalanced-learn==0.7.0&#x20;
+
+scikit-plot&#x20;
+
+Boruta&#x20;
+
+pyyaml<6.0.0&#x20;
+
+numba<0.55
+{% endtab %}
+
+{% tab title="requirements-optional" %}
+shap&#x20;
+
+interpret<=0.2.4&#x20;
+
+tune-sklearn>=0.2.1&#x20;
+
+ray\[tune]>=1.0.0&#x20;
+
+hyperopt&#x20;
+
+optuna>=2.2.0&#x20;
+
+scikit-optimize>=0.8.1&#x20;
+
+psutil&#x20;
+
+catboost>=0.23.2&#x20;
+
+xgboost>=1.1.0&#x20;
+
+explainerdashboard&#x20;
+
+m2cgen&#x20;
+
+evidently&#x20;
+
+autoviz&#x20;
+
+fairlearn&#x20;
+
+fastapi&#x20;
+
+uvicorn&#x20;
+
+gradio&#x20;
+
+fugue>=0.6.5&#x20;
+
+boto3&#x20;
+
+azure-storage-blob&#x20;
+
+google-cloud-storage
+{% endtab %}
+
+{% tab title="requirements-test" %}
+pytest&#x20;
+
+moto&#x20;
+
+codecov&#x20;
+
+shap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storagedask\[dataframe]
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+**NOTE:** We are actively working on reducing default dependencies in the next major release. We intend to support functionality level and module-specific install in future. For example: `pip install pycaret[nlp].`
+{% endhint %}
+
 ## Building from source
 
 To install the package directly from GitHub (latest source), use the following command:
