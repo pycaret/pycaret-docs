@@ -1,7 +1,5 @@
 ---
-description: >-
-  Official tutorials created by the developers of PyCaret. You can also see more
-  learning resources in the "Learn PyCaret" section of the documentation.
+description: Official tutorials created by the developers of PyCaret.
 ---
 
 # ⭐ Tutorials

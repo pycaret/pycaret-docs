@@ -1,5 +1,5 @@
 ---
-description: Quick start guide for beginners
+description: Quick start guide to PyCaret
 ---
 
 # 🚀 Quickstart
