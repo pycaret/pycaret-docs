@@ -454,25 +454,100 @@ print(loaded_model)
 
 ## Natural Language Processing
 
+PyCaret’s Natural Language Processing is an unsupervised machine learning module that is used for training topic models on text data. There are several techniques that are used to analyze text data and Topic Modeling **** is one of them. A topic model is a type of statistical model for discovering abstract topics in a collection of documents.&#x20;
+
 ### Setup
 
-work-in-progress
+This function initializes the training environment and creates the text transformation pipeline. The setup function must be called before executing any other function.
+
+```
+# load dataset
+from pycaret.datasets import get_data
+data = get_data('kiva')
+```
+
+![Sample from dataset](<../.gitbook/assets/image (461).png>)
+
+```
+# print first document
+print(data['en'][0])
+```
+
+![Output from print(data\['en'\]\[0\])](<../.gitbook/assets/image (92).png>)
+
+```
+# init setup
+from pycaret.nlp import *
+s = setup(data, target = 'en')
+```
+
+![Output from setup(...)](<../.gitbook/assets/image (370).png>)
 
 ### Create Model
 
-work-in-progress
+This function trains an unsupervised topic model. All the available models can be accessed using the models function.
+
+```
+models()
+```
+
+![Output from models()](<../.gitbook/assets/image (518).png>)
+
+#### To train a model:
+
+```
+lda = create_model('lda')
+print(lda)
+```
+
+![Output from print(lda)](<../.gitbook/assets/image (458).png>)
 
 ### Analyze Model
 
-work-in-progress
+```
+plot_model(lda, plot = 'frequency')
+```
+
+![Output from plot\_model(...)](<../.gitbook/assets/image (159).png>)
+
+```
+plot_model(lda, plot = 'sentiment')
+```
+
+![Output from plot\_model(...)](<../.gitbook/assets/image (168).png>)
+
+Alternatively, you can also use the `evaluate_model` function.
+
+```
+evaluate_model(lda)
+```
+
+![Output from evaluate\_model(lda)](<../.gitbook/assets/image (57).png>)
 
 ### Assign Model
 
-work-in-progress
+This function assigns topic labels to the dataset for a given model.
+
+```
+lda_results = assign_model(lda)
+lda_results.head()
+```
+
+![Output from assign\_model(lda)](<../.gitbook/assets/image (310).png>)
 
 ### Save the model
 
-work-in-progress
+```
+save_model(lda, 'my_lda_model')
+```
+
+![Output from save\_model(..)](<../.gitbook/assets/image (241).png>)
+
+To load the model back in the environment:
+
+```
+loaded_model = load_model('my_lda_model')
+```
 
 ## Association Rules Mining
 

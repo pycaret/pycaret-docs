@@ -52,7 +52,7 @@ clf1 = setup(data, target = 'Class variable')
 models()
 ```
 
-![Output from models()](<../../.gitbook/assets/image (241).png>)
+![Output from models()](<../../.gitbook/assets/image (241) (1).png>)
 
 If you want to see a little more information than this, you can pass `internal=True`.
 

@@ -597,7 +597,7 @@ xgboost = create_model('xgboost')
 interpret_model(xgboost, plot = 'msa')
 ```
 
-![Output from interpret\_model(xgboost, plot = 'msa')](<../../.gitbook/assets/image (370).png>)
+![Output from interpret\_model(xgboost, plot = 'msa')](<../../.gitbook/assets/image (370) (1).png>)
 
 #### Permutation Feature Importance
 

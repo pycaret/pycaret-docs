@@ -158,7 +158,7 @@ tune_model(dt, search_library = 'tune-sklearn', search_algorithm = 'hyperopt')
 {% endtab %}
 
 {% tab title="optuna" %}
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (57) (1).png>)
 {% endtab %}
 
 {% tab title="scikit-optimize" %}

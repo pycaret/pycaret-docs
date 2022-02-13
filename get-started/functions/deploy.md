@@ -328,7 +328,7 @@ create_api(lr, 'lr_api')
 !python lr_api.py
 ```
 
-![Output from create\_api(lr, 'lr\_api')](<../../.gitbook/assets/image (310).png>)
+![Output from create\_api(lr, 'lr\_api')](<../../.gitbook/assets/image (310) (1).png>)
 
 Once you initialize API with the `!python` command. You can see the server on localhost:8000/docs.
 
@@ -393,7 +393,7 @@ lr = create_model('lr')
 create_app(lr)
 ```
 
-![Output from create\_app(lr)](<../../.gitbook/assets/image (518).png>)
+![Output from create\_app(lr)](<../../.gitbook/assets/image (518) (1).png>)
 
 #### Video:
 

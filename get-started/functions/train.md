@@ -154,7 +154,7 @@ clf1 = setup(data = diabetes, target = 'Class variable')
 best = compare_models(probability_threshold = 0.25)
 ```
 
-![Output from compare\_models(probability\_threshold = 0.25)](<../../.gitbook/assets/image (92).png>)
+![Output from compare\_models(probability\_threshold = 0.25)](<../../.gitbook/assets/image (92) (1).png>)
 
 Notice that all metrics except for `AUC` are now different. AUC doesn't change because it's not dependent on the hard labels, everything else is dependent on the hard label which is now obtained using `probability_threshold=0.25` .
 

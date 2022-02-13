@@ -60,7 +60,7 @@ reg1 = setup(data = concrete, target = 'strength', remove_multicollinearity = Tr
 
 #### **After**
 
-![Dataframe view after remove multicollinearity](<../../.gitbook/assets/image (168).png>)
+![Dataframe view after remove multicollinearity](<../../.gitbook/assets/image (168) (1).png>)
 
 ### Principal Component Analysis
 
