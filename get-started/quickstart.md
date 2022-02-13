@@ -24,7 +24,7 @@ Select your use case:
 
 PyCaret’s **Classification Module** is a supervised machine learning module that is used for classifying elements into groups. The goal is to predict the categorical class **labels** which are discrete and unordered. Some common use cases include predicting customer default (Yes or No), predicting customer churn (customer will leave or stay), the disease found (positive or negative). This module can be used for **binary** or **multiclass** problems. It provides several [pre-processing](preprocessing/) features that prepare the data for modeling through the [setup](functions/#setting-up-environment) function. It has over 18 ready-to-use algorithms and [several plots](functions/#plot-model) to analyze the performance of trained models.&#x20;
 
-### Initialize Setup
+### Setup
 
 This function initializes the training environment and creates the transformation pipeline. Setup function must be called before executing any other function. It takes two mandatory parameters: `data` and `target`. All the other parameters are optional.
 
@@ -141,7 +141,7 @@ print(loaded_model)
 
 PyCaret’s **Regression Module** is a supervised machine learning module that is used for estimating the relationships between a **dependent variable** (often called the ‘outcome variable’, or ‘target’) and one or more **independent variables** (often called ‘features’, ‘predictors’, or ‘covariates’). The objective of regression is to predict continuous values such as predicting sales amount, predicting quantity, predicting temperature, etc. It provides several [pre-processing](preprocessing/) features that prepare the data for modeling through the [setup](functions/#setting-up-environment) function. It has over 25 ready-to-use algorithms and [several plots](functions/#plot-model) to analyze the performance of trained models.&#x20;
 
-### Initialize Setup
+### Setup
 
 This function initializes the training environment and creates the transformation pipeline. Setup function must be called before executing any other function. It takes two mandatory parameters: `data` and `target`. All the other parameters are optional.
 
@@ -247,7 +247,7 @@ print(loaded_model)
 
 PyCaret’s **Clustering Module** is an unsupervised machine learning module that performs the task of **grouping** a set of objects in such a way that objects in the same group (also known as a **cluster**) are more similar to each other than to those in other groups. It provides several [pre-processing](preprocessing/) features that prepare the data for modeling through the [setup](functions/#setting-up-environment) function. It has over 10 ready-to-use algorithms and [several plots](functions/#plot-model) to analyze the performance of trained models.&#x20;
 
-### Initialize Setup
+### Setup
 
 This function initializes the training environment and creates the transformation pipeline. Setup function must be called before executing any other function. It takes one mandatory parameter: `data`. All the other parameters are optional.
 
@@ -356,7 +356,7 @@ print(loaded_model)
 
 PyCaret’s **Anomaly Detection** Module is an unsupervised machine learning module that is used for identifying **rare items**, **events**, or **observations** that raise suspicions by differing significantly from the majority of the data. Typically, the anomalous items will translate to some kind of problems such as bank fraud, a structural defect, medical problems, or errors. It provides several [pre-processing](preprocessing/) features that prepare the data for modeling through the [setup](functions/#setting-up-environment) function. It has over 10 ready-to-use algorithms and [several plots](functions/#plot-model) to analyze the performance of trained models.&#x20;
 
-### Initialize Setup
+### Setup
 
 This function initializes the training environment and creates the transformation pipeline. The `setup` function must be called before executing any other function. It takes one mandatory parameter only: `data`. All the other parameters are optional.
 
@@ -454,12 +454,58 @@ print(loaded_model)
 
 ## Natural Language Processing
 
-work-in-progress.
+### Setup
+
+work-in-progress
+
+### Create Model
+
+work-in-progress
+
+### Analyze Model
+
+work-in-progress
+
+### Assign Model
+
+work-in-progress
+
+### Save the model
+
+work-in-progress
 
 ## Association Rules Mining
 
-work-in-progress.
+### Setup
+
+work-in-progress
+
+### Create Model
+
+work-in-progress
 
 ## Time Series (beta)
 
-work-in-progress.
+{% hint style="warning" %}
+**NOTE:** PyCaret time series forecasting module is in beta. It is recommended to create a separate conda environment for use. You can install it with `pip install pycaret-ts-alpha.`
+{% endhint %}
+
+### Setup
+
+work-in-progress
+
+### Compare Models
+
+work-in-progress
+
+### Analyze Model
+
+work-in-progress
+
+### Predictions
+
+work-in-progress
+
+### Save the model
+
+work-in-progress
