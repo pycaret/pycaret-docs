@@ -279,7 +279,7 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 {% endtab %}
 
 {% tab title="learning" %}
-![](<../../.gitbook/assets/image (110).png>)
+![](<../../.gitbook/assets/image (110) (1).png>)
 {% endtab %}
 
 {% tab title="vc" %}

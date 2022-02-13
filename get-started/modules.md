@@ -1,5 +1,5 @@
 ---
-description: Modules are building blocks for creating experiments in PyCaret
+description: This page lists all the modules of PyCaret
 ---
 
 # 📶 Modules

@@ -1,7 +1,11 @@
+---
+description: Frequently Asked Questions!
+---
+
 # ❓ FAQs
 
-{% hint style="success" %}
-**Want to add a new question to FAQ?** Please submit your uquestion and a short and concise answer to the question on our [GitHub](https://www.github.com/pycaret/pycaret).
+{% hint style="info" %}
+**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
 {% endhint %}
 
 <details>

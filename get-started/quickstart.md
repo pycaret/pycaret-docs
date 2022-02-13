@@ -426,11 +426,31 @@ result.head()
 
 ### Predictions
 
-work-in-progress.
+This function generates anomaly labels using a trained model on the new/unseen dataset.
+
+```
+predictions = predict_model(iforest, data = data)
+predictions.head()
+```
+
+![Output from predict\_model(iforest, data = data)](<../.gitbook/assets/image (374).png>)
 
 ### Save the model
 
-work-in-progress.
+```
+save_model(iforest, 'iforest_pipeline')
+```
+
+![Output from save\_model(iforest, 'iforest\_pipeline')](<../.gitbook/assets/image (59).png>)
+
+To load the model back in the environment:
+
+```
+loaded_model = load_model('iforest_pipeline')
+print(loaded_model)
+```
+
+![Output from load\_model('iforest\_pipeline')](<../.gitbook/assets/image (209).png>)
 
 ## Natural Language Processing
 
