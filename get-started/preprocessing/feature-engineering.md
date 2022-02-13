@@ -126,7 +126,7 @@ clf1 = setup(data = credit, target = 'default', group_features = ['BILL_AMT1', '
 
 #### **After**
 
-![Dataframe after group features](<../../.gitbook/assets/image (508).png>)
+![Dataframe after group features](<../../.gitbook/assets/image (508) (1).png>)
 
 ### Bin Numeric Features
 

@@ -126,7 +126,7 @@ predictions.head()
 save_model(best, 'my_best_pipeline')
 ```
 
-![](<../.gitbook/assets/image (201).png>)
+![](<../.gitbook/assets/image (201) (1).png>)
 
 #### To load the model back in environment:
 
@@ -551,13 +551,39 @@ loaded_model = load_model('my_lda_model')
 
 ## Association Rules Mining
 
+PyCaret's association rule module is a supervised machine learning module that is used for discovering interesting relations between variables in the dataset. This module automatically transforms any transactional database into a shape that is acceptable for the apriori algorithm. Apriori is an algorithm for frequent itemset mining and association rule learning over relational databases.
+
 ### Setup
 
-work-in-progress
+```
+from pycaret.datasets import get_data
+data = get_data('france')
+```
+
+![Sample rows from the dataset](<../.gitbook/assets/image (201).png>)
+
+```
+from pycaret.arules import * 
+arules = setup(data, transaction_id = 'InvoiceNo', item_id = 'Description')
+```
+
+![Output from setup(...)](<../.gitbook/assets/image (476).png>)
 
 ### Create Model
 
-work-in-progress
+```
+create_model(metric = 'confidence', threshold = 0.3)
+```
+
+![Output from create\_model(...)](<../.gitbook/assets/image (543).png>)
+
+### Analyze Model
+
+```
+plot_model(model, plot = '3d')
+```
+
+![Output from plot\_model(...)](<../.gitbook/assets/image (508).png>)
 
 ## Time Series (beta)
 

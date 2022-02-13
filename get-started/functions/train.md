@@ -376,7 +376,7 @@ clf1 = setup(data = diabetes, target = 'Class variable')
 lgbs  = [create_model('lightgbm', learning_rate = i) for i in np.arange(0,1,0.1)]
 ```
 
-![](<../../.gitbook/assets/image (476).png>)
+![](<../../.gitbook/assets/image (476) (1).png>)
 
 ```
 type(lgbs)
