@@ -185,13 +185,11 @@ pytest&#x20;
 moto&#x20;
 
 codecov&#x20;
-
-shap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storageshap interpret<=0.2.4 tune-sklearn>=0.2.1 ray\[tune]>=1.0.0 hyperopt optuna>=2.2.0 scikit-optimize>=0.8.1 psutil catboost>=0.23.2 xgboost>=1.1.0 explainerdashboard m2cgen evidently autoviz fairlearn fastapi uvicorn gradio fugue>=0.6.5 boto3 azure-storage-blob google-cloud-storagedask\[dataframe]
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-**NOTE:** We are actively working on reducing default dependencies in the next major release. We intend to support functionality level and module-specific install in future. For example: `pip install pycaret[nlp].`
+**NOTE:** We are actively working on reducing default dependencies in the next major release. We intend to support functionality level and module-specific install in the future. For example: `pip install pycaret[nlp].`
 {% endhint %}
 
 ## Building from source
