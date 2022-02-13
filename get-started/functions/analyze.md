@@ -180,7 +180,7 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 {% endtab %}
 
 {% tab title="pr" %}
-![](<../../.gitbook/assets/image (207).png>)
+![](<../../.gitbook/assets/image (207) (1).png>)
 {% endtab %}
 
 {% tab title="error" %}
@@ -226,7 +226,7 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 {% endtab %}
 
 {% tab title="lift" %}
-![](<../../.gitbook/assets/image (277).png>)
+![](<../../.gitbook/assets/image (277) (1).png>)
 {% endtab %}
 
 {% tab title="gain" %}
@@ -320,7 +320,7 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 {% endtab %}
 
 {% tab title="distance" %}
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 {% endtab %}
 
 {% tab title="distribution" %}

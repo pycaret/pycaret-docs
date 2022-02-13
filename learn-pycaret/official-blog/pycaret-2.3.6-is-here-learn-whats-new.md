@@ -152,7 +152,7 @@ create_api(lr, 'my_first_api')
 
 ![](<../../.gitbook/assets/image (162).png>)
 
-![](<../../.gitbook/assets/image (170).png>)
+![](<../../.gitbook/assets/image (170) (1).png>)
 
 #### **Video Demo:** <a href="#4653" id="4653"></a>
 

@@ -391,7 +391,7 @@ iforest = create_model('iforest')
 print(iforest)
 ```
 
-![](<../.gitbook/assets/image (451).png>)
+![](<../.gitbook/assets/image (451) (1).png>)
 
 ```
 models()
@@ -591,22 +591,80 @@ plot_model(model, plot = '3d')
 **NOTE:** PyCaret time series forecasting module is in beta. It is recommended to create a separate conda environment for use. You can install it with `pip install pycaret-ts-alpha.`
 {% endhint %}
 
+PyCaret's new time series module is now available in beta. Staying true to the simplicity of PyCaret, it is consistent with our existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code.
+
 ### Setup
 
-work-in-progress
+This function initializes the training environment and creates the transformation pipeline. Setup function must be called before executing any other function.
+
+```
+# loading dataset
+from pycaret.datasets import get_data
+data = get_data('airline')
+```
+
+![Output from get\_data('airline')](<../.gitbook/assets/image (277).png>)
+
+```
+from pycaret.time_series import *
+s = setup(data, fh = 3, fold = 5, session_id = 123)
+```
+
+![Output from setup(...)](<../.gitbook/assets/image (107).png>)
 
 ### Compare Models
 
-work-in-progress
+This function trains and evaluates the performance of all the estimators available in the model library using cross-validation. The output of this function is a scoring grid with average cross-validated scores. Metrics evaluated during CV can be accessed using the `get_metrics` function. Custom metrics can be added or removed using `add_metric` and `remove_metric` function.
+
+```
+best = compare_models()
+```
+
+![Output from compare\_models()](<../.gitbook/assets/image (451).png>)
 
 ### Analyze Model
 
-work-in-progress
+```
+plot_model(best, plot = 'forecast', data_kwargs = {'fh' : 24})
+```
+
+![Output from plot\_model(...)](<../.gitbook/assets/image (176).png>)
+
+```
+plot_model(best, plot = 'diagnostics')
+```
+
+![Output from plot\_model(best, plot = 'diagnostics')](<../.gitbook/assets/image (462).png>)
+
+```
+plot_model(best, plot = 'insample')
+```
+
+![Output from plot\_model(best, plot = 'insample')](<../.gitbook/assets/image (170).png>)
 
 ### Predictions
 
-work-in-progress
+```
+# finalize model
+final_best = finalize_model(best)
+predict_model(best, fh = 24)
+```
+
+![Output from predict\_model(best, fh = 24)](<../.gitbook/assets/image (207).png>)
 
 ### Save the model
 
-work-in-progress
+```
+save_model(final_best, 'my_final_best_model')
+```
+
+![Output from save\_model(...)](<../.gitbook/assets/image (161).png>)
+
+#### To load the model back in the environment:
+
+```
+loaded_model = load_model('my_final_best_model')
+print(loaded_model)
+```
+
+![Output from load\_model(...)](<../.gitbook/assets/image (25).png>)
