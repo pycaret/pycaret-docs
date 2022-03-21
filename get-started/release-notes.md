@@ -4,6 +4,32 @@ description: This page shows release notes >= 2.0
 
 # ⚒ Release Notes
 
+### **PyCaret 2.3.8**
+
+**Release Date: March 21st, 2022 (HOT FIX TO 2.3.7)**
+
+* Fixed `dashboard_logger` key error during `setup` ([#2311](https://github.com/pycaret/pycaret/pull/2311))
+
+### **PyCaret 2.3.7**
+
+**Release Date: March 21st, 2022 (NEW FEATURES, BUG FIXES)**
+
+* Fugue integration - thanks to [@goodwanghan](https://github.com/goodwanghan) ([#2035](https://github.com/pycaret/pycaret/pull/2035))
+* Added W\&B experiment logger - thanks to [@AyushExel](https://github.com/AyushExel) ([#2231](https://github.com/pycaret/pycaret/pull/2231))
+* Fixed `check_fairness` exception when the **** index is not an ordinal number - thanks to [@reza1615](https://github.com/reza1615) ([#2055](https://github.com/pycaret/pycaret/pull/2055))
+* Unsupported characters in data frames are now replaced - thanks to [@reza1615](https://github.com/reza1615) ([#2058](https://github.com/pycaret/pycaret/pull/2058))
+* Fixed drift report with categorical columns - thanks to [@reza1615](https://github.com/reza1615) ([#2063](https://github.com/pycaret/pycaret/pull/2063))
+* Added multivariable time-series dataset from UCI - thanks to [@reza1615](https://github.com/reza1615) ([#2094](https://github.com/pycaret/pycaret/pull/2094))
+* Fixed a UTF error during installation - thanks to [@reza1615](https://github.com/reza1615) ([#2113](https://github.com/pycaret/pycaret/pull/2113))
+* MLFlow tracking API can now take in custom tags - thanks to [@netoferraz](https://github.com/netoferraz) ([#1526](https://github.com/pycaret/pycaret/pull/1526))
+* Updated `create_api` function ([#2146](https://github.com/pycaret/pycaret/pull/2146))
+* `drift_report` can now work with unseen data - thanks to [@reza1615](https://github.com/reza1615) ([#2183](https://github.com/pycaret/pycaret/pull/2183))
+* Added Japanese tutorial - thanks to [@hanaseleb](https://github.com/hanaseleb) ([#2215](https://github.com/pycaret/pycaret/pull/2215))
+* Added Traffic and Drugs Related Violations dataset and example - thanks to [@HaithemH](https://github.com/HaithemH) ([#2191](https://github.com/pycaret/pycaret/pull/2191))
+* Training scores can now be returned from various supervised learning functions (`return_train_score=True`). Passing an unseen dataset with the label column to `predict_model` will now calculate the metrics for that dataset - thanks to [@levelalphaone](https://github.com/levelalphaone) ([#2237](https://github.com/pycaret/pycaret/pull/2237))
+* Fixed spelling mistakes in function docstrings - thanks to [@aadarshsingh191198](https://github.com/aadarshsingh191198) ([#2269](https://github.com/pycaret/pycaret/pull/2269))
+* Pinned `numba<0.55` ([#2056](https://github.com/pycaret/pycaret/pull/2056))
+
 ### **PyCaret 2.3.6**
 
 **Release Date: January 11th, 2022 (NEW FEATURES, BUG FIXES)**
