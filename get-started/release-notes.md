@@ -4,6 +4,13 @@ description: This page shows release notes >= 2.0
 
 # ⚒ Release Notes
 
+### **PyCaret 2.3.9**
+
+**Release Date: March 27th, 2022 (HOT FIX TO 2.3.8)**
+
+* Made `log_experiment` more configurable ([#2334](https://github.com/pycaret/pycaret/pull/2334), [#2335](https://github.com/pycaret/pycaret/pull/2335))
+* Made `return_train_score=False` use the old output format ([#2333](https://github.com/pycaret/pycaret/pull/2333))
+
 ### **PyCaret 2.3.8**
 
 **Release Date: March 21st, 2022 (HOT FIX TO 2.3.7)**
