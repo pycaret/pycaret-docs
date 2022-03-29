@@ -17,14 +17,16 @@ There are only two non-optional parameters in the setup function.
 
 ### Experiment Logging
 
-PyCaret uses [MLflow](https://mlflow.org) for experiment tracking. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
+PyCaret can automatically log entire experiments including setup parameters, model hyperparameters, performance metrics, and pipeline artifacts. The default settings use [MLflow](https://mlflow.org) as the logging backend. [wandb](https://wandb.ai) is also available as an option for logging backend. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
 
 #### PARAMETERS
 
-* **log\_experiment: bool, default = False**\
-  When set to `True`, all metrics and parameters are automatically logged using MLFlow.
+* **log\_experiment: bool, default = bool or string 'mlflow' or 'wandb'**\
+  A (list of) PyCaret `BaseLogger` or str (one of `mlflow`, `wandb`) corresponding to a logger to determine which experiment loggers to use. Setting to True will use the MLFlow backend by default.
 * **experiment\_name: str, default = None**\
   Name of the experiment for logging. When set to `None`, a default name is used.
+* **experiment\_custom\_tags: dict, default = None**\
+  ****Dictionary of tag\_name: String -> value: (String, but will be string-ified if not) passed to the mlflow.set\_tags to add new custom tags for the experiment.
 * **log\_plots: bool, default = False**\
   When set to `True`, applicable analysis plots are logged as an image file.
 * **log\_profile: bool, default = False**\
