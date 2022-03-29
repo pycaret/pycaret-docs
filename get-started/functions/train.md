@@ -333,6 +333,25 @@ These are the metrics on the test/hold-out set. That's why you only see one row 
 **NOTE:** This function is only available in [Classification](../modules.md) and [Regression](../modules.md) modules.
 {% endhint %}
 
+### Return train score
+
+The default scoring grid shows the performance metrics on the validation set by fold. If you want to see the performance metrics on the training set by fold as well to examine the over-fitting/under-fitting you can use `return_train_score` parameter.
+
+```
+# load dataset 
+from pycaret.datasets import get_data 
+diabetes = get_data('diabetes') 
+
+# init setup
+from pycaret.classification import * 
+clf1 = setup(data = diabetes, target = 'Class variable')
+
+# train model without cv
+lr = create_model('lr', return_train_score = True)
+```
+
+![Output from createmodel('lr', return\_train\_score = True)](<../../.gitbook/assets/image (379).png>)
+
 ### Set the probability threshold
 
 When performing binary classification, you can change the probability threshold or cut-off value for hard labels. By default, all classifiers use `0.5` as a default threshold.&#x20;
