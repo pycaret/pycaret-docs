@@ -4,6 +4,18 @@ description: This page shows release notes >= 2.0
 
 # ⚒ Release Notes
 
+### **PyCaret 2.3.10**
+
+**Release Date: April 10, 2022 (BUG FIXES, NEW FUNCTIONALITY)**
+
+* Fixed `predict_model` throwing an exception with loaded pipelines ([#2349](https://github.com/pycaret/pycaret/pull/2349))
+* Fixed potential parameter leaking for `ParallelBackend` - thanks to [@goodwanghan](https://github.com/goodwanghan) ([#2339](https://github.com/pycaret/pycaret/pull/2339))
+* Refactored a piece of logic in `arules` module - thanks to [@daikikatsuragawa](https://github.com/daikikatsuragawa) ([#2316](https://github.com/pycaret/pycaret/pull/2316))
+* Added Two Tutorials in Chinese - thanks to [@ryanxjhan](https://github.com/ryanxjhan) ([#2352](https://github.com/pycaret/pycaret/pull/2352))
+* Added CLF101 in Chinese - thanks to [@ryanxjhan](https://github.com/ryanxjhan) ([#2353](https://github.com/pycaret/pycaret/pull/2353))
+* Added new tutorials in Chinese - thanks to [@ryanxjhan](https://github.com/ryanxjhan) ([#2375](https://github.com/pycaret/pycaret/pull/2375))
+* New function `deep_check` is added in `classification` and `regression` module.
+
 ### **PyCaret 2.3.9**
 
 **Release Date: March 27th, 2022 (HOT FIX TO 2.3.8)**
