@@ -372,7 +372,7 @@ from pycaret.anomaly import *
 s = setup(data)
 ```
 
-![](<../.gitbook/assets/image (93).png>)
+![](<../.gitbook/assets/image (93) (1).png>)
 
 When the `setup` is executed, PyCaret's inference algorithm will automatically infer the data types for all features based on certain properties. The data type should be inferred correctly but this is not always the case. To handle this, PyCaret displays a prompt, asking for data types confirmation, once you execute the `setup`. You can press enter if all data types are correct or type `quit` to exit the setup.
 

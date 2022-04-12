@@ -537,7 +537,7 @@ xgboost = create_model('xgboost')
 interpret_model(xgboost, plot = 'correlation', feature = 'Age (years)')
 ```
 
-![Output from interpret\_model(xgboost, plot = 'correlation', feature = 'Age (years)')](<../../.gitbook/assets/image (271).png>)
+![Output from interpret\_model(xgboost, plot = 'correlation', feature = 'Age (years)')](<../../.gitbook/assets/image (271) (1).png>)
 
 #### Partial Dependence Plot
 
@@ -714,6 +714,38 @@ dashboard(lr)
 #### Video:
 
 {% embed url="https://www.youtube.com/watch?v=FZ5-GtdYez0" %}
+
+## deep\_check
+
+This function runs a full suite check over a trained model using the [deepchecks](https://github.com/deepchecks/deepchecks) library.
+
+#### Deep Check Example
+
+```
+# load dataset
+from pycaret.datasets import get_data
+juice = get_data('juice')
+
+# init setup
+from pycaret.classification import *
+exp_name = setup(data = juice,  target = 'Purchase')
+
+# train model
+lr = create_model('lr')
+
+# deep check model
+deep_check(lr)
+```
+
+![Deep Check Dashboard (1/3) - Output truncated](<../../.gitbook/assets/image (385).png>)
+
+![Deep Check Dashboard (2/3) - Output truncated](<../../.gitbook/assets/image (319).png>)
+
+![Deep Check Dashboard (3/3) - Output truncated](<../../.gitbook/assets/image (524).png>)
+
+{% hint style="warning" %}
+This function is in experimental mode. `deepchecks` require `scikit-learn>1.0` version, whereas pycaret requires scikit-learn==0.23.2. Hence after installing deepchecks you must uninstall scikit-learn and reinstall scikit-learn==0.23.2 otherwise you will get an error with pycaret. The future version of pycaret will be scikit-learn>1.0 compatible.&#x20;
+{% endhint %}
 
 ## eda
 

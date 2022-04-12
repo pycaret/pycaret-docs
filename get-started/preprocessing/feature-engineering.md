@@ -186,7 +186,7 @@ clf1 = setup(data = income, target = 'income >50K', combine_rare_levels = True)
 
 #### After
 
-![Dataframe view after combine rare levels](<../../.gitbook/assets/image (524).png>)
+![Dataframe view after combine rare levels](<../../.gitbook/assets/image (524) (1).png>)
 
 #### Effect of combining rare levels
 
