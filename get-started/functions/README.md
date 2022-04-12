@@ -10,7 +10,7 @@ description: This page lists all the functions of PyCaret
 {% tab title="Initialize" %}
 #### [setup](initialize.md#setting-up-environment)
 
-This function initializes the experiment in PyCaret and prepares the transformation pipeline based on all the parameters passed in the function. Setup function must be called before executing any other function. It only requires two parameters: `data` and `target`. All the other parameters are optional. [Learn More.](initialize.md#setting-up-environment)
+This function initializes the experiment in PyCaret and prepares the transformation pipeline based on all the parameters passed in the function. The setup function must be called before executing any other function. It only requires two parameters: `data` and `target`. All the other parameters are optional. [Learn More.](initialize.md#setting-up-environment)
 {% endtab %}
 
 {% tab title="Train" %}
@@ -84,7 +84,13 @@ This function analyzes the predictions generated from a trained model. Most plot
 
 This function generates the interactive dashboard for a trained model. The dashboard is implemented using the ExplainerDashboard project. [Learn More.](analyze.md#dashboard)
 
-####
+
+
+#### [deep\_check](analyze.md#deep\_check)
+
+This function runs a full suite check over a trained model using the deepchecks library. This function is in experimental mode. [Learn More](analyze.md#deep\_check).
+
+
 
 #### [eda](analyze.md#eda)
 
