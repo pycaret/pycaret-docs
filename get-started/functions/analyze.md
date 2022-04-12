@@ -337,7 +337,7 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="tsne" %}
-![](<../../.gitbook/assets/image (378).png>)
+![](<../../.gitbook/assets/image (378) (1).png>)
 {% endtab %}
 
 {% tab title="umap" %}

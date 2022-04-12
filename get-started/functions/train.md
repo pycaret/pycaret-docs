@@ -187,6 +187,56 @@ The output looks pretty similar but if you focus, the metrics are now different 
 **NOTE:** This function is only available in [Classification](../modules.md) and [Regression](../modules.md) modules.
 {% endhint %}
 
+### Distributed training on a cluster
+
+To scale on large datasets you can run `compare_models` function on a cluster in distributed mode using a parameter called `parallel`. It leverages the [Fugue](https://github.com/fugue-project/fugue/) abstraction layer to run `compare_models` on Spark or Dask clusters.&#x20;
+
+```
+# load dataset
+from pycaret.datasets import get_data
+diabetes = get_data('diabetes')
+
+# init setup
+from pycaret.classification import *
+clf1 = setup(data = diabetes, target = 'Class variable', n_jobs = 1)
+
+# create pyspark session
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+
+# import parallel back-end
+from pycaret.parallel import FugueBackend
+
+# compare models
+best = compare_models(parallel = FugueBackend(spark))
+```
+
+![Output from compare\_models(parallel = FugueBackend(spark))](<../../.gitbook/assets/image (378).png>)
+
+{% hint style="info" %}
+Note that we need to set `n_jobs = 1` in the setup for testing with local Spark because some models will already try to use all available cores, and running such models in parallel can cause deadlocks from resource contention.&#x20;
+{% endhint %}
+
+For Dask, we can specify the `"dask"` inside `FugueBackend` and it will pull the available Dask client.
+
+```
+# load dataset
+from pycaret.datasets import get_data
+diabetes = get_data('diabetes')
+
+# init setup
+from pycaret.classification import *
+clf1 = setup(data = diabetes, target = 'Class variable', n_jobs = 1)
+
+# import parallel back-end
+from pycaret.parallel import FugueBackend
+
+# compare models
+best = compare_models(parallel = FugueBackend("dask"))
+```
+
+For the complete example and other features related to distributed execution, check [this example](https://github.com/pycaret/pycaret/blob/master/examples/PyCaret%202%20Fugue%20Integration.ipynb). This example also shows how to get the leaderboard in real-time. In a distributed setting, this involves setting up an RPCClient, but Fugue simplifies that.
+
 ## create\_model
 
 This function trains and evaluates the performance of a given estimator using cross-validation. The output of this function is a scoring grid with CV scores by fold. Metrics evaluated during CV can be accessed using the `get_metrics` function. Custom metrics can be added or removed using `add_metric` and `remove_metric` function. All the available models can be accessed using the `models` function.
