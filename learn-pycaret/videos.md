@@ -8,6 +8,10 @@ description: Videos to learn more about PyCaret
 **Want to include your video here?** Have you created a YouTube video on PyCaret? A tutorial, showcase, or even your opinionated review. We accept it all, as long as it is informational and free to watch for our community members. Reach us out on our [Slack](https://join.slack.com/t/pycaret/shared\_invite/zt-row9phbm-BoJdEVPYnGf7\_NxNBP307w).
 {% endhint %}
 
+### Deploy PyCaret model within Power BI
+
+{% embed url="https://www.youtube.com/watch?v=OB_30yKiPFI" %}
+
 ### PyCaret Meet up 5 Feb 2022
 
 {% embed url="https://www.youtube.com/watch?v=cXrjLveN3IQ" %}
