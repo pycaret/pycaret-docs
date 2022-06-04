@@ -5,6 +5,10 @@ coverY: 0
 
 # Welcome to PyCaret
 
+{% hint style="success" %}
+PyCaret 3.0-rc is now out. `pip install --pre pycaret` to use it. Check out this [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
+{% endhint %}
+
 {% hint style="info" %}
 **Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
 {% endhint %}
@@ -175,7 +179,7 @@ Help us spread the word. We love to hear success stories and use cases.
 
 #### :writing\_hand: Blog on PyCaret
 
-Like to write? You can write a medium blog and share it with us. Check out this [blog](https://moez-62905.medium.com) by Author.
+Like to write? You can write a medium blog and share it with us. Check out this [blog](https://moez-62905.medium.com/) by Author.
 
 #### :m: Join our Meetup <a href="#blog-on-pycaret" id="blog-on-pycaret"></a>
 
