@@ -53,7 +53,7 @@ Method:                100% online with live instructor (materials and recording
 
 Length:                 24 hours (in sessions of 2 to 4 hours)
 
-Price:                    USD 400.00
+Price:                    USD 400.00 (debit / credit card or PayPal only)
 
 Date of Start:       October 2021
 
@@ -79,4 +79,4 @@ Natural Language Processing
 
 #### Interested?&#x20;
 
-Apply here
+Apply [here](https://forms.gle/zGE5ZVCfYDxQLhHZ7)
