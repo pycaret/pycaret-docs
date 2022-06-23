@@ -17,7 +17,7 @@ There are only two non-optional parameters in the setup function.
 
 ### Experiment Logging
 
-PyCaret can automatically log entire experiments including setup parameters, model hyperparameters, performance metrics, and pipeline artifacts. The default settings use [MLflow](https://mlflow.org) as the logging backend. [wandb](https://wandb.ai) is also available as an option for logging backend. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
+PyCaret can automatically log entire experiments including setup parameters, model hyperparameters, performance metrics, and pipeline artifacts. The default settings use [MLflow](https://mlflow.org/) as the logging backend. [wandb](https://wandb.ai/) is also available as an option for logging backend. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
 
 #### PARAMETERS
 

@@ -203,7 +203,7 @@ Now we have the complete data set ready to start modelling. In the next part we 
 
 In Part-I, we discussed importing data from open source free API and prepared it in a manner which is suitable for our intended Machine Learning exercise. You can refer to Part-I for the codes or import the final dataset in file name ‘Training Data’ from the [github repo](https://github.com/Riazone/Gold-Return-Prediction/blob/master/Training%20Data.csv).
 
-PyCaret is an open source machine learning library in Python which can be used across any notebook environment and drastically reduces the coding effort making the process extremely efficient and productive. In section below we will see how\*\*\* [PyCaret ](https://pycaret.org)\*\*\*can supercharge any machine learning experiment. To begin, you will need to install PyCaret using :
+PyCaret is an open source machine learning library in Python which can be used across any notebook environment and drastically reduces the coding effort making the process extremely efficient and productive. In section below we will see how\*\*\* [PyCaret ](https://pycaret.org/)\*\*\*can supercharge any machine learning experiment. To begin, you will need to install PyCaret using :
 
 ```
 !pip install pycaret

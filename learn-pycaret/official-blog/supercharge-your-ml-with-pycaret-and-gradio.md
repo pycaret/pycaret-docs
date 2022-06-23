@@ -8,7 +8,7 @@
 
 ### 👉 Introduction
 
-This tutorial is a step-by-step, beginner-friendly explanation of how you can integrate [PyCaret](https://www.pycaret.org) and [Gradio](https://www.gradio.app), the two powerful open-source libraries in Python, and supercharge your machine learning experimentation within minutes.
+This tutorial is a step-by-step, beginner-friendly explanation of how you can integrate [PyCaret](https://www.pycaret.org) and [Gradio](https://www.gradio.app/), the two powerful open-source libraries in Python, and supercharge your machine learning experimentation within minutes.
 
 This tutorial is a “hello world” example, I have used [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris) from UCI, which is a multiclassification problem where the goal is to predict the class of iris plants. The code given in this example can be reproduced on any other dataset, without any major modifications.
 

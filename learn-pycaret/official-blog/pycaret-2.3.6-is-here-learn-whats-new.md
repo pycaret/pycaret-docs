@@ -28,7 +28,7 @@ pip install pycaret[full]
 
 ### 📈 Dashboard <a href="#5b8f" id="5b8f"></a>
 
-This function will generate the interactive dashboard for a trained model. The dashboard is implemented using the [ExplainerDashboard](http://explainerdashboard.readthedocs.io).
+This function will generate the interactive dashboard for a trained model. The dashboard is implemented using the [ExplainerDashboard](http://explainerdashboard.readthedocs.io/).
 
 ```
 # load dataset
@@ -301,8 +301,8 @@ Thank you for reading.
 
 ### :link: Important Links <a href="#b749" id="b749"></a>
 
-* 📚 [Official Docs:](https://pycaret.gitbook.io) The bible of PyCaret. Everything is here.
-* 🌐 [Official Web:](https://www.pycaret.org) Check out our official website
+* 📚 [Official Docs:](https://pycaret.gitbook.io/) The bible of PyCaret. Everything is here.
+* 🌐 [Official Web:](https://www.pycaret.org/) Check out our official website
 * 😺 [GitHub](https://www.github.com/pycaret/pycaret) Check out our Git
 * ⭐ [Tutorials](https://pycaret.gitbook.io/docs/get-started/tutorials) New to PyCaret? Check out our official notebooks!
 * 📋 [Example Notebooks](https://github.com/pycaret/pycaret/tree/master/examples) created by the community.

@@ -8,7 +8,7 @@
 
 ![](https://cdn-images-1.medium.com/max/2000/1\*NWklye0cNThqH\_cTImozlA.png)
 
-In our [last post](https://towardsdatascience.com/machine-learning-in-power-bi-using-pycaret-34307f09394a) we demonstrated how to train and deploy machine learning models in Power BI using [PyCaret](https://www.pycaret.org). If you haven’t heard about PyCaret before, please read our [announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to get a quick start.
+In our [last post](https://towardsdatascience.com/machine-learning-in-power-bi-using-pycaret-34307f09394a) we demonstrated how to train and deploy machine learning models in Power BI using [PyCaret](https://www.pycaret.org/). If you haven’t heard about PyCaret before, please read our [announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to get a quick start.
 
 In this tutorial we will use PyCaret to develop a **machine learning pipeline,** that will include preprocessing transformations and a regression model to predict patient hospitalization charges based on demographic and basic patient health risk metrics such as age, BMI, smoking status etc.
 
@@ -23,7 +23,7 @@ In this tutorial we will use PyCaret to develop a **machine learning pipeline,**
 
 ### PyCaret
 
-[PyCaret](https://www.pycaret.org) is an open source, low-code machine learning library in Python to train and deploy machine learning pipelines and models in production. PyCaret can be installed easily using pip.
+[PyCaret](https://www.pycaret.org/) is an open source, low-code machine learning library in Python to train and deploy machine learning pipelines and models in production. PyCaret can be installed easily using pip.
 
 ```
 # for Jupyter notebook on your local computer
@@ -44,11 +44,11 @@ pip install **Flask**
 
 ### GitHub
 
-[GitHub](https://www.github.com) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometime hundreds of them) are making changes. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
+[GitHub](https://www.github.com/) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometime hundreds of them) are making changes. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
 
 ### Heroku
 
-[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables the deployment of web apps based on a managed container system, with integrated data services and a powerful ecosystem. In simple words, this will allow you to take the application from your local machine to the cloud so that anybody can access it using a Web URL. In this tutorial we have chosen Heroku for deployment as it provides free resource hours when you [sign up](https://signup.heroku.com) for new account.
+[Heroku](https://www.heroku.com/) is a platform as a service (PaaS) that enables the deployment of web apps based on a managed container system, with integrated data services and a powerful ecosystem. In simple words, this will allow you to take the application from your local machine to the cloud so that anybody can access it using a Web URL. In this tutorial we have chosen Heroku for deployment as it provides free resource hours when you [sign up](https://signup.heroku.com/) for new account.
 
 ![Machine Learning Workflow (from Training to Deployment on PaaS)](https://cdn-images-1.medium.com/max/2000/1\*GCRVoOwIKL\_AhmrwOtQwaA.png)
 
@@ -79,7 +79,7 @@ To build a web application where demographic and health information of a patient
 
 ### 👉 Task 1 — Model Training and Validation
 
-Training and model validation are performed in Integrated Development Environment (IDE) or Notebook either on your local machine or on cloud. In this tutorial we will use PyCaret in Jupyter Notebook to develop machine learning pipeline and train regression models. If you haven’t used PyCaret before, [click here](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to learn more about PyCaret or see [Getting Started Tutorials](https://www.pycaret.org/tutorial) on our [website](https://www.pycaret.org).
+Training and model validation are performed in Integrated Development Environment (IDE) or Notebook either on your local machine or on cloud. In this tutorial we will use PyCaret in Jupyter Notebook to develop machine learning pipeline and train regression models. If you haven’t used PyCaret before, [click here](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to learn more about PyCaret or see [Getting Started Tutorials](https://www.pycaret.org/tutorial) on our [website](https://www.pycaret.org/).
 
 In this tutorial, we have performed two experiments. The first experiment is performed with default preprocessing settings in PyCaret (missing value imputation, categorical encoding etc). The second experiment has some additional preprocessing tasks such as scaling and normalization, automatic feature engineering and binning continuous data into intervals. See the setup example for the second experiment:
 
@@ -221,7 +221,7 @@ Once all the files are uploaded onto the GitHub repository, we are now ready to 
 
 ![Heroku — Successful deployment](https://cdn-images-1.medium.com/max/3078/0\*TFPIem6Q5k6DKszI.png)
 
-App is published to URL: [https://pycaret-insurance.herokuapp.com/](https://pycaret-insurance.herokuapp.com)
+App is published to URL: [https://pycaret-insurance.herokuapp.com/](https://pycaret-insurance.herokuapp.com/)
 
 ![https://pycaret-insurance.herokuapp.com/](https://cdn-images-1.medium.com/max/3772/0\*Fr199orKNCkPMBSf.png)
 

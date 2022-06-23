@@ -233,6 +233,6 @@ So here I have walked through steps to create a classifier to predict a signific
 
 [\*\*\*Part-I and II — Regression](https://towardsdatascience.com/machine-learning-to-predict-gold-price-returns-4bdb0506b132)\*\*\*
 
-[\*\*\*PyCaret](https://pycaret.org)\*\*\*
+[\*\*\*PyCaret](https://pycaret.org/)\*\*\*
 
 [\*\*\*My LinkedIn profile](https://www.linkedin.com/in/riazuddin-mohammad/)\*\*\*

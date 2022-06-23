@@ -45,7 +45,7 @@ Since base installations on these platforms are not in our control, time-to-time
 
 <summary>Does PyCaret support model training on GPU?</summary>
 
-Yes. We have integrated PyCaret with the amazing [RAPIDS.AI](https://rapids.ai) project. To use GPU instead of CPU, just pass `use_gpu=True` in the `setup` function.&#x20;
+Yes. We have integrated PyCaret with the amazing [RAPIDS.AI](https://rapids.ai/) project. To use GPU instead of CPU, just pass `use_gpu=True` in the `setup` function.&#x20;
 
 **This will use CPU for model training:**
 

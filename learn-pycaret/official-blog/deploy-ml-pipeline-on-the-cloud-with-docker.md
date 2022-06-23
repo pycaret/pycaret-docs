@@ -31,7 +31,7 @@ This tutorial will cover the entire workflow of building a container locally to 
 
 ### PyCaret
 
-[PyCaret](https://www.pycaret.org) is an open source, low-code machine learning library in Python that is used to train and deploy machine learning pipelines and models into production. PyCaret can be installed easily using pip.
+[PyCaret](https://www.pycaret.org/) is an open source, low-code machine learning library in Python that is used to train and deploy machine learning pipelines and models into production. PyCaret can be installed easily using pip.
 
 ```
 pip install **pycaret**
@@ -43,11 +43,11 @@ pip install **pycaret**
 
 ### **Docker**
 
-[Docker](https://www.docker.com)\*\* \*\*is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers are used to package up an application with all of its necessary components, such as libraries and other dependencies, and ship it all out as one package. If you haven’t used docker before, this tutorial also covers the installation of docker on Windows 10.
+[Docker](https://www.docker.com/)\*\* \*\*is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers are used to package up an application with all of its necessary components, such as libraries and other dependencies, and ship it all out as one package. If you haven’t used docker before, this tutorial also covers the installation of docker on Windows 10.
 
 ### **Microsoft Azure**
 
-[Microsoft Azure](https://azure.microsoft.com/en-ca/overview/what-is-azure/) is a set of cloud services that is used to build, manage and deploy applications on a massive and global network. Other cloud services that are often used for deploying ML pipelines are [Amazon Web Services (AWS)](https://aws.amazon.com), [Google Cloud](https://cloud.google.com), [IBM Cloud](https://www.ibm.com/cloud) and [Alibaba Cloud](https://www.alibabacloud.com). We will cover most of them in our future tutorials.
+[Microsoft Azure](https://azure.microsoft.com/en-ca/overview/what-is-azure/) is a set of cloud services that is used to build, manage and deploy applications on a massive and global network. Other cloud services that are often used for deploying ML pipelines are [Amazon Web Services (AWS)](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com), [IBM Cloud](https://www.ibm.com/cloud) and [Alibaba Cloud](https://www.alibabacloud.com/). We will cover most of them in our future tutorials.
 
 If you haven’t used Microsoft Azure before you can [sign up](https://azure.microsoft.com/en-ca/free/search/?\&ef\_id=EAIaIQobChMIm8Onqp6i6QIViY7ICh2QVA2jEAAYASAAEgK9FvD\_BwE:G:s\&OCID=AID2000061\_SEM\_EAIaIQobChMIm8Onqp6i6QIViY7ICh2QVA2jEAAYASAAEgK9FvD\_BwE:G:s\&dclid=CK6R8aueoukCFVbJyAoduGYLcQ) for a free account here. When you sign up for the first time you get a free credit for the first 30 days. You can utilize that credit in building your own web app by following this tutorial.
 
@@ -79,7 +79,7 @@ Can you spot the difference between Virtual Machines and Containers? When you us
 
 #### I understand containers but what is Docker?
 
-Docker is a company that provides software (also called Docker) that allows users to build, run and manage containers. While Docker’s container are the most common, there are other less famous _alternatives_ such as [LXD](https://linuxcontainers.org/lxd/introduction/) and [LXC](https://linuxcontainers.org) that provides container solution.
+Docker is a company that provides software (also called Docker) that allows users to build, run and manage containers. While Docker’s container are the most common, there are other less famous _alternatives_ such as [LXD](https://linuxcontainers.org/lxd/introduction/) and [LXC](https://linuxcontainers.org/) that provides container solution.
 
 In this tutorial, we will use \*\*Docker Desktop for Windows \*\*to create a container that we will publish on Azure Container Registry. We will then deploy a web app using that container.
 
@@ -140,7 +140,7 @@ This is how our web application looks:
 
 ![Web application opened on local machine](https://cdn-images-1.medium.com/max/2800/1\*EU4Cp9w1YHS2om8Mmfqh2g.png)
 
-If you would like to see this web app in action, [click here](https://pycaret-insurance.herokuapp.com) to open a deployed web app on Heroku (_It may take few minutes to open_).
+If you would like to see this web app in action, [click here](https://pycaret-insurance.herokuapp.com/) to open a deployed web app on Heroku (_It may take few minutes to open_).
 
 If you haven’t followed along, no problem. You can simply fork this [repository](https://github.com/pycaret/deployment-heroku) from GitHub. If you don’t know how to fork a repo, please [read this](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) official GitHub tutorial. This is how your project folder should look at this point:
 
@@ -172,7 +172,7 @@ Once downloaded, simply unzip the file into the desired location.
 
 The first step of creating a Docker image is to create a Dockerfile. A Dockerfile is just a file with a set of instructions. The Dockerfile for this project looks like this:
 
-Dockerfile is case-sensitive and must be in the project folder with the other project files. A Dockerfile has no extension and can be created using any editor. We have used [Visual Studio Code](https://code.visualstudio.com) to create it.
+Dockerfile is case-sensitive and must be in the project folder with the other project files. A Dockerfile has no extension and can be created using any editor. We have used [Visual Studio Code](https://code.visualstudio.com/) to create it.
 
 #### 👉 Step 4— Create Azure Container Registry
 

@@ -12,7 +12,7 @@
 
 In our [last post](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507) on deploying a machine learning pipeline in the cloud, we demonstrated how to develop a machine learning pipeline in PyCaret, containerize Flask app with Docker and deploy serverless using AWS Fargate. If you haven’t heard about PyCaret before, you can read this [announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to learn more.
 
-In this tutorial, we will train a machine learning pipeline using PyCaret and create a web app using a [Streamlit](https://www.streamlit.io) open-source framework. This web app will be a simple interface for business users to generate predictions on a new dataset using a trained machine learning pipeline.
+In this tutorial, we will train a machine learning pipeline using PyCaret and create a web app using a [Streamlit](https://www.streamlit.io/) open-source framework. This web app will be a simple interface for business users to generate predictions on a new dataset using a trained machine learning pipeline.
 
 By the end of this tutorial, you will be able to build a fully functional web app to generate online predictions (one-by-one) and predictions by batch (by uploading a csv file) using trained machine learning model. The final app looks like this:
 
@@ -38,7 +38,7 @@ In the past, we have covered containerization using docker and deployment on clo
 
 ### PyCaret
 
-[PyCaret](https://www.pycaret.org) is an open source, low-code machine learning library in Python that is used to train and deploy machine learning pipelines and models into production. PyCaret can be installed easily using pip.
+[PyCaret](https://www.pycaret.org/) is an open source, low-code machine learning library in Python that is used to train and deploy machine learning pipelines and models into production. PyCaret can be installed easily using pip.
 
 ```
 pip install **pycaret**
@@ -46,7 +46,7 @@ pip install **pycaret**
 
 ### Streamlit
 
-[Streamlit](https://www.streamlit.io) is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science. Streamlit can be installed easily using pip.
+[Streamlit](https://www.streamlit.io/) is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science. Streamlit can be installed easily using pip.
 
 ```
 pip install **streamlit**
@@ -54,11 +54,11 @@ pip install **streamlit**
 
 ### GitHub
 
-[GitHub](https://www.github.com) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometimes hundreds of them) are making changes. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
+[GitHub](https://www.github.com/) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometimes hundreds of them) are making changes. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
 
 ### Heroku
 
-[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables the deployment of web apps based on a managed container system, with integrated data services and a powerful ecosystem. In simple words, this will allow you to take the application from your local machine to the cloud so that anybody can access it using a Web URL. In this tutorial, we have chosen Heroku for deployment as it provides free resource hours when you [sign up](https://signup.heroku.com) for a new account.
+[Heroku](https://www.heroku.com/) is a platform as a service (PaaS) that enables the deployment of web apps based on a managed container system, with integrated data services and a powerful ecosystem. In simple words, this will allow you to take the application from your local machine to the cloud so that anybody can access it using a Web URL. In this tutorial, we have chosen Heroku for deployment as it provides free resource hours when you [sign up](https://signup.heroku.com/) for a new account.
 
 ![Machine Learning Workflow (from Training to Deployment on PaaS)](https://cdn-images-1.medium.com/max/2000/1\*XTizEjPOR4UKJphNsjbhBw.png)
 
@@ -100,7 +100,7 @@ To build a web application that supports online (one-by-one) as well as batch pr
 
 ### 👉 Task 1 — Model Training and Validation
 
-Training and model validation are performed in an Integrated Development Environment (IDE) or Notebook either on your local machine or on cloud. If you haven’t used PyCaret before, [click here](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to learn more about PyCaret or see [Getting Started Tutorials](https://www.pycaret.org/tutorial) on our [website](https://www.pycaret.org).
+Training and model validation are performed in an Integrated Development Environment (IDE) or Notebook either on your local machine or on cloud. If you haven’t used PyCaret before, [click here](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46) to learn more about PyCaret or see [Getting Started Tutorials](https://www.pycaret.org/tutorial) on our [website](https://www.pycaret.org/).
 
 In this tutorial, we have performed two experiments. The first experiment is performed with default preprocessing settings in PyCaret. The second experiment has some additional preprocessing tasks such as **scaling and normalization, automatic feature engineering and binning continuous data into intervals**. See the setup code for the second experiment:
 
@@ -239,7 +239,7 @@ Once all the files are uploaded onto the GitHub repository, we are now ready to 
 
 **Step 5 — Wait 10 minutes and BOOM**
 
-App is published to URL: [https://pycaret-streamlit.herokuapp.com/](https://pycaret-streamlit.herokuapp.com)
+App is published to URL: [https://pycaret-streamlit.herokuapp.com/](https://pycaret-streamlit.herokuapp.com/)
 
 ![https://pycaret-streamlit.herokuapp.com/](https://cdn-images-1.medium.com/max/3826/1\*-scVDUhBbOIWievCj0DYjw.png)
 

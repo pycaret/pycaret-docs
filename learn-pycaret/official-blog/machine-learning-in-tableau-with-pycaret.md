@@ -6,7 +6,7 @@
 
 #### by Andrew Cowan-Nagora
 
-[PyCaret](https://www.pycaret.org) is a recently released open source machine learning library in Python that trains and deploys machine learning models in a \*\*low-code \*\*environment. To learn more about PyCaret, read this [announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46).
+[PyCaret](https://www.pycaret.org/) is a recently released open source machine learning library in Python that trains and deploys machine learning models in a \*\*low-code \*\*environment. To learn more about PyCaret, read this [announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46).
 
 This article will demonstrate how PyCaret can be integrated with Tableau Desktop and Tableau Prep which opens new avenues for analysts and data scientists to add a layer of machine learning to their dashboards, reports and visualizations. By reducing the time required to code as well as the need to purchase additional software, rapid prototyping is now possible in environments that are already familiar and available to analysts throughout the organization.
 
@@ -217,7 +217,7 @@ By using tools that are familiar to the organization and the PyCaret library, en
 
 ### Useful Links
 
-[PyCaret](https://pycaret.org)
+[PyCaret](https://pycaret.org/)
 
 [PyCaret: User guide and documentation](https://pycaret.org/guide/)
 

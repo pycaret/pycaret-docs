@@ -369,7 +369,7 @@ Following new parameters have been added:
 
     'tune-sklearn' - `pip install tune-sklearn ray[tune]`[ https://github.com/ray-project/tune-sklearn](https://github.com/ray-project/tune-sklearn)
 
-    'optuna' - `pip install optuna` [https://optuna.org/](https://optuna.org)
+    'optuna' - `pip install optuna` [https://optuna.org/](https://optuna.org/)
 *   **search\_algorithm: str, default = None** The search algorithm depends on the `search_library` parameter. Some search algorithms require additional libraries to be installed. When None, will use the search library-specific default algorithm.
 
     `scikit-learn` possible values: - random (default) - grid

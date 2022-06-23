@@ -57,11 +57,11 @@ Let’s understand the following terminologies before starting to build an AutoM
 
 ### **Docker**
 
-Docker is a company that provides software (also called Docker) that allows users to build, run, and manage containers. While Docker’s container are the most common, there are other less famous _alternatives_ such as [LXD](https://linuxcontainers.org/lxd/introduction/) and [LXC](https://linuxcontainers.org) that also provide container solution.
+Docker is a company that provides software (also called Docker) that allows users to build, run, and manage containers. While Docker’s container are the most common, there are other less famous _alternatives_ such as [LXD](https://linuxcontainers.org/lxd/introduction/) and [LXC](https://linuxcontainers.org/) that also provide container solution.
 
 ### GitHub
 
-[GitHub](https://www.github.com) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometime in hundreds) are making changes on the same code base. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
+[GitHub](https://www.github.com/) is a cloud-based service that is used to host, manage and control code. Imagine you are working in a large team where multiple people (sometime in hundreds) are making changes on the same code base. PyCaret is itself an example of an open-source project where hundreds of community developers are continuously contributing to source code. If you haven’t used GitHub before, you can [sign up](https://github.com/join) for a free account.
 
 ### **GitHub Actions**
 
@@ -175,7 +175,7 @@ Actions and any elements of the Action service may not be used in violation of t
 
 * cryptomining;
 * serverless computing;
-* using our servers to disrupt, or to gain or to attempt to gain unauthorized access to, any service, device, data, account or network (other than those authorized by the [GitHub Bug Bounty program](https://bounty.github.com))
+* using our servers to disrupt, or to gain or to attempt to gain unauthorized access to, any service, device, data, account or network (other than those authorized by the [GitHub Bug Bounty program](https://bounty.github.com/))
 * the provision of a stand-alone or integrated application or service offering Actions or any elements of Actions for commercial purposes; or,
 * any other activity unrelated to the production, testing, deployment, or publication of the software project associated with the repository where GitHub Actions are used.
 

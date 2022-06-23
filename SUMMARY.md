@@ -70,6 +70,7 @@
 * [📒 Examples](learn-pycaret/examples.md)
 * [🛩 Cheat sheet](learn-pycaret/cheat-sheet.md)
 * [❓ FAQs](learn-pycaret/faqs.md)
+* [PyCaret Academy](learn-pycaret/pycaret-academy.md)
 
 ## IMPORTANT LINKS
 

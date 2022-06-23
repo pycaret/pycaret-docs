@@ -168,13 +168,13 @@ mlflow sagemaker run-local -m <path-to-model>
 mlflow sagemaker deploy <parameters>
 ```
 
-To learn more about all deployment capabilities of MLFlow, [click here](https://www.mlflow.org/docs/latest/models.html#).
+To learn more about all deployment capabilities of MLFlow, [click here](https://www.mlflow.org/docs/latest/models.html).
 
 ### 👉 MLFlow Model Registry
 
 The MLflow Model Registry component is a centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of an MLflow Model. It provides model lineage (which MLflow experiment and run produced the model), model versioning, stage transitions (for example from staging to production), and annotations.
 
-If running your own MLflow server, you must use a database-backed backend store in order to access the model registry. [Click here](https://www.mlflow.org/docs/latest/tracking.html#backend-stores) for more information. However, if you are using [Databricks](https://databricks.com) or any of the managed Databricks services such as [Azure Databricks](https://azure.microsoft.com/en-ca/services/databricks/), you don’t need to worry about setting up anything. It comes with all the bells and whistles you would ever need.
+If running your own MLflow server, you must use a database-backed backend store in order to access the model registry. [Click here](https://www.mlflow.org/docs/latest/tracking.html#backend-stores) for more information. However, if you are using [Databricks](https://databricks.com/) or any of the managed Databricks services such as [Azure Databricks](https://azure.microsoft.com/en-ca/services/databricks/), you don’t need to worry about setting up anything. It comes with all the bells and whistles you would ever need.
 
 ![https://databricks.com/blog/2020/06/25/announcing-mlflow-model-serving-on-databricks.html](https://cdn-images-1.medium.com/max/2048/1\*XlT58YrFuszGb-1PIXvKZw.gif)
 

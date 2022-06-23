@@ -10,7 +10,7 @@
 
 We are excited to announce [PyCaret](https://www.pycaret.org), an open source machine learning library in Python to train and deploy supervised and unsupervised machine learning models in a **low-code** environment. PyCaret allows you to go from preparing data to deploying models within seconds from your choice of notebook environment.
 
-In comparison with the other open source machine learning libraries, PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with few words only. This makes experiments exponentially fast and efficient. PyCaret is essentially a Python wrapper around several machine learning libraries and frameworks such as [scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/latest/), [Microsoft LightGBM](https://github.com/microsoft/LightGBM), [spaCy](https://spacy.io), and many more.
+In comparison with the other open source machine learning libraries, PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with few words only. This makes experiments exponentially fast and efficient. PyCaret is essentially a Python wrapper around several machine learning libraries and frameworks such as [scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/latest/), [Microsoft LightGBM](https://github.com/microsoft/LightGBM), [spaCy](https://spacy.io/), and many more.
 
 PyCaret is **simple and** **easy to use**. All the operations performed in PyCaret are sequentially stored in a **Pipeline** that is fully orchestrated for \*\*deployment. \*\*Whether its imputing missing values, transforming categorical data, feature engineering or even hyperparameter tuning, PyCaret automates all of it. To learn more about PyCaret, watch this 1-minute video.
 
@@ -22,7 +22,7 @@ The first stable release of PyCaret version 1.0.0 can be installed using pip. Us
 pip install pycaret
 ```
 
-If you are using [Azure notebooks](https://notebooks.azure.com) or [Google Colab](https://colab.research.google.com), run the below cell of code to install PyCaret.
+If you are using [Azure notebooks](https://notebooks.azure.com/) or [Google Colab](https://colab.research.google.com/), run the below cell of code to install PyCaret.
 
 ```
 !pip install pycaret

@@ -8,7 +8,7 @@
 
 ![Photo by Joshua Sortino on Unsplash](https://cdn-images-1.medium.com/max/8390/0\*3n2RWRuMocf7X67I)
 
-My previous post [\*\*Machine Learning in SQL using PyCaret 1.0](https://towardsdatascience.com/machine-learning-in-sql-using-pycaret-87aff377d90c)\*\* provided details about integrating [\*\*PyCaret](https://pycaret.org)\*\* with [\*\*SQL Server](https://www.microsoft.com/en-ca/sql-server/sql-server-downloads)**. In this article, I will provide step-by-step details on how to train and deploy a Supervised Machine Learning Classification model in SQL Server using** [**\*\*PyCaret 2.0**](https://pycaret.org) **(PyCaret is a low-code ML library in Python).**
+My previous post [\*\*Machine Learning in SQL using PyCaret 1.0](https://towardsdatascience.com/machine-learning-in-sql-using-pycaret-87aff377d90c)\*\* provided details about integrating [\*\*PyCaret](https://pycaret.org/)\*\* with [\*\*SQL Server](https://www.microsoft.com/en-ca/sql-server/sql-server-downloads)**. In this article, I will provide step-by-step details on how to train and deploy a Supervised Machine Learning Classification model in SQL Server using** [**\*\*PyCaret 2.0**](https://pycaret.org/) **(PyCaret is a low-code ML library in Python).**
 
 **Things to be covered in this article:**
 
@@ -48,7 +48,7 @@ Click the Finish button to run the package
 
 ### **II. Create ML Model & Save in Database Table**
 
-\*\*Classification **is a type of supervised machine learning to predict the categorical class labels which are discrete and unordered. The module available in the** [**\*\*PyCaret**](https://pycaret.org) package can be used for **binary** or **multiclass** problems.
+\*\*Classification **is a type of supervised machine learning to predict the categorical class labels which are discrete and unordered. The module available in the** [**\*\*PyCaret**](https://pycaret.org/) package can be used for **binary** or **multiclass** problems.
 
 In this example, we will be using a ‘**Breast Cancer Dataset**’. Creating and saving a model in a database table is a multi-step process. Let’s go by them step by step:
 
@@ -284,12 +284,12 @@ In this post, we learnt how to build a classification model using a PyCaret in S
 
 ![Photo by Tobias Fischer on Unsplash](https://cdn-images-1.medium.com/max/8064/0\*45eSsUjDsCd\_7\_-J)
 
-You can further check out the [\*\*PyCaret](http://pycaret.org)\*\* website for documentation on other supervised and unsupervised experiments that can be implemented in a similar manner within SQL Server.
+You can further check out the [\*\*PyCaret](http://pycaret.org/)\*\* website for documentation on other supervised and unsupervised experiments that can be implemented in a similar manner within SQL Server.
 
 My future posts will be tutorials on exploring other supervised & unsupervised learning techniques using Python and **PyCaret** within a S**QL Server**.
 
 ### V. Important Links
 
-[PyCaret](https://pycaret.org)
+[PyCaret](https://pycaret.org/)
 
 [My LinkedIn Profile](https://www.linkedin.com/in/umarfarooque/)

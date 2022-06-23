@@ -60,7 +60,7 @@ How do you get the target variable? Well, most CRM systems like Salesforce, Zoho
 
 ### What is PyCaret?
 
-[PyCaret](https://www.pycaret.org) is an open-source, low-code machine learning library and end-to-end model management tool in Python to automate machine learning workflows. Using PyCaret you can efficiently build and deploy end-to-end machine learning pipelines. To learn more about PyCaret, check out their [GitHub](https://www.github.com/pycaret/pycaret).
+[PyCaret](https://www.pycaret.org/) is an open-source, low-code machine learning library and end-to-end model management tool in Python to automate machine learning workflows. Using PyCaret you can efficiently build and deploy end-to-end machine learning pipelines. To learn more about PyCaret, check out their [GitHub](https://www.github.com/pycaret/pycaret).
 
 ![Features of PyCaret — Image by Author](https://cdn-images-1.medium.com/max/2084/0\*FdaGo2BLH96-e-4\_.png)
 

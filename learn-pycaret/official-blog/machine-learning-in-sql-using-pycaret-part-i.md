@@ -8,7 +8,7 @@
 
 ![](https://cdn-images-1.medium.com/max/8064/1\*CxB6I95fPzYv\_z9C6RRzVg.png)
 
-This post is a **step-by-step tutorial** on how to train and deploy an Unsupervised Machine Learning Clustering model in SQL Server using [\*\*PyCaret](https://pycaret.org)**(a low-code ML library in Python)**.\*\*
+This post is a **step-by-step tutorial** on how to train and deploy an Unsupervised Machine Learning Clustering model in SQL Server using [\*\*PyCaret](https://pycaret.org/)**(a low-code ML library in Python)**.\*\*
 
 **Things we will cover in this article:**
 
@@ -307,13 +307,13 @@ Following these steps, you can assign cluster value to every observation point i
 
 In this post, we learnt how to build a clustering model using running a Python library (PyCaret) in SQL Server. Similarly, you can build and run other types of supervised and unsupervised ML models depending on the need of the business problem.
 
-You can further check out the [PyCaret](http://pycaret.org) website for documentation on other supervised and unsupervised experiments that can be implemented in a similar manner within SQL Server.
+You can further check out the [PyCaret](http://pycaret.org/) website for documentation on other supervised and unsupervised experiments that can be implemented in a similar manner within SQL Server.
 
 My future posts will be tutorials on exploring supervised learning techniques (regression/classification) using Python and Pycaret within a SQL Server.
 
 ### VII. Important Links
 
-[PyCaret](https://pycaret.org)
+[PyCaret](https://pycaret.org/)
 
 [PyCaret: User guide and documentation](https://pycaret.org/guide/)
 

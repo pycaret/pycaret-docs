@@ -57,7 +57,7 @@ All the preprocessing steps in setup are simply a flag of `True` or `False` . Fo
 
 ### Experiment Logging
 
-PyCaret uses [MLflow](https://mlflow.org) for experiment tracking. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
+PyCaret uses [MLflow](https://mlflow.org/) for experiment tracking. A parameter in the setup can be enabled to automatically track all the metrics, hyperparameters, and other important information about your machine learning model.&#x20;
 
 #### Example
 

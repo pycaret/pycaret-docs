@@ -8,7 +8,7 @@
 
 ### Introduction
 
-In this tutorial, I will show you how you can train machine learning models using [PyCaret](https://www.pycaret.org) — an open-source, low-code machine learning library in Python—and convert them in ONNX format for deployment on an edge device or any other non-Python environment. For example, you can train machine learning models using PyCaret in Python and deploy them in R, Java, or C. The Learning Goals of this tutorial are:
+In this tutorial, I will show you how you can train machine learning models using [PyCaret](https://www.pycaret.org/) — an open-source, low-code machine learning library in Python—and convert them in ONNX format for deployment on an edge device or any other non-Python environment. For example, you can train machine learning models using PyCaret in Python and deploy them in R, Java, or C. The Learning Goals of this tutorial are:
 
 👉 What is PyCaret and how to get started?
 
@@ -20,7 +20,7 @@ In this tutorial, I will show you how you can train machine learning models usin
 
 ### PyCaret
 
-[PyCaret](https://www.pycaret.org) is an open-source, low-code machine learning library and end-to-end model management tool built-in Python for automating machine learning workflows. PyCaret is known for its ease of use, simplicity, and ability to quickly and efficiently build and deploy end-to-end machine learning pipelines. To learn more about PyCaret, check out their [GitHub](https://www.github.com/pycaret/pycaret).
+[PyCaret](https://www.pycaret.org/) is an open-source, low-code machine learning library and end-to-end model management tool built-in Python for automating machine learning workflows. PyCaret is known for its ease of use, simplicity, and ability to quickly and efficiently build and deploy end-to-end machine learning pipelines. To learn more about PyCaret, check out their [GitHub](https://www.github.com/pycaret/pycaret).
 
 **Features:**
 
@@ -63,7 +63,7 @@ Predictive model markup language (PMML) is another format for machine learning m
 
 ### What is ONNX?
 
-[ONNX](https://onnx.ai) is an open format to represent both deep learning and traditional models. With ONNX, AI developers can more easily move models between state-of-the-art tools and choose the combination that is best for them. ONNX is developed and supported by a community of partners such as Microsoft, Facebook, and AWS.
+[ONNX](https://onnx.ai/) is an open format to represent both deep learning and traditional models. With ONNX, AI developers can more easily move models between state-of-the-art tools and choose the combination that is best for them. ONNX is developed and supported by a community of partners such as Microsoft, Facebook, and AWS.
 
 ONNX is widely supported and can be found in many frameworks, tools, and hardware. Enabling interoperability between different frameworks and streamlining the path from research to production helps increase the speed of innovation in the AI community. ONNX helps to solve the challenge of hardware dependency related to AI models and enables deploying the same AI models to several HW accelerated targets.
 
