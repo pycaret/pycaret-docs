@@ -27,7 +27,7 @@ Moderate experience in data analysis with spreadsheets (Excel) and desire to lea
 
 **Additional benefits**
 
-A free copy of _Machine Learning in Power BI with R and Python_ in ebook and book format.
+A free copy of [_Machine Learning in Power BI with R and Python_](https://www.lulu.com/shop/gabriel-gomez-and-pablo-j-moreno/machine-learning-in-power-bi-with-r-and-python/paperback/product-8qwdk7.html?q=machine+learning+in+power+bi\&page=1\&pageSize=4) (ebook and book format)
 
 **Areas of application**
 
@@ -57,13 +57,13 @@ Price:                    USD 400.00 (debit / credit card or PayPal only)
 
 Date of Start:       October 2021
 
-Accreditation:      National University of Engineering (Nicaragua)
+Accreditation:      National University of Engineering
 
 #### Course Content
 
 Introduction and fundamentals
 
-Data structure for analysis
+Data structures for analysis
 
 Exploratory Data Analysis
 
