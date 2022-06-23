@@ -29,6 +29,8 @@ Moderate experience in data analysis with spreadsheets (Excel) and desire to lea
 
 A free copy of [_Machine Learning in Power BI with R and Python_](https://www.lulu.com/shop/gabriel-gomez-and-pablo-j-moreno/machine-learning-in-power-bi-with-r-and-python/paperback/product-8qwdk7.html?q=machine+learning+in+power+bi\&page=1\&pageSize=4) (ebook and book format)
 
+This training is also available **in-company** or as part of any existing **education program** (education-as-a-service)
+
 **Areas of application**
 
 * Finance / Accounting​
@@ -61,21 +63,84 @@ Accreditation:      National University of Engineering
 
 #### Course Content
 
-Introduction and fundamentals
+#### Introduction and fundamentals
 
-Data structures for analysis
+All fundamental concepts that will be used during the course are covered in this block, including terminology, processes and data project life cycle according to CRISP-DM methodology. Among other topics, we describe some fundamental concepts of applied statistics, probability theory, and similar concepts.
 
-Exploratory Data Analysis
+#### Data structures for analysis
 
-Unsupervised Algorithms
+Analyze and understand how to structure data for data analysis.
 
-Time Series Analysis and Forecasting
+The concept of 'data frame' is introduced, and the most common problems and errors in data structures, how to overcome those issues and implement good practices.
 
-Supervised Algorithms - Regression
+#### Exploratory Data Analysis
 
-Supervised Algorithm - Classification
+Once covered fundamental concepts and having identified the appropriate data structure to carry out an advanced analytics, Exploratory Data Analysis (EDA) is performed.
 
-Natural Language Processing
+How to analyze multiple variables and their relationships, correlation and association between variables, density and frequency analysis, among other aspects.
+
+Advanced charting and statistical data analysis tools will be used.
+
+#### Unsupervised Algorithms
+
+Multiple models within unsupervised algorithm will be covered from a highly practical point of view.
+
+Multiple cases of clustering, anomaly detection and association of variables will be developed. Practical applications:
+
+* Customer segmentation.
+* Geo-special clustering.
+* Quality control in industrial production.
+* Internal purchasing audit.
+* Shopping basket analysis.
+* Recommendation of products and services.
+
+#### Time Series Analysis and Forecasting
+
+After exploring the applications and business cases with unsupervised algorithms, this module begins with analysis of time series of variables, and estimation of future values ​​(forecasting).
+
+The evaluation of more than 25 time series models (ARIMA, TBATS, Exponential Smooth, among others) will be evaluated to generate forecasting. In addition, special attention will be paid to the interpretation of results and the use of confidence intervals. Practical applications:
+
+* Sales forecasting and demand forecasting.
+* Inventory forecasting.
+* Raw material price forecasting.
+* Analysis of variables.
+* Univariate forecasting.
+
+#### Supervised Algorithms - Regression
+
+At this point, the journey through supervised regression algorithms to perform predictive analysis on continuous (numeric) variables begins.
+
+Multiple business cases will be analyzed where different models will be applied, such as linear regression, CART, random forest, extreme gradient boost, among others. Additionally, alternatives to put these applications into production will be explained. ​Practical applications:
+
+* Income forecast.
+* Analysis of commercial and marketing campaigns.
+* Expense forecast.
+* Estimation of demand, inventories and shipping times.
+* Multivariable time series.
+* Others
+
+#### Supervised Algorithm - Classification
+
+The application of supervised classification algorithms to perform predictive analysis on categorical variables will be delved into.
+
+Multiple business cases will be analyzed where different models will be applied, such as logistic regression, CART, random forest, extreme gradient boost, among others. Additionally, alternatives to put these applications into production will be explained. ​Practical applications:
+
+* Prediction of purchases by customers.
+* Analysis of commercial and marketing campaigns.
+* Risk prediction.
+* Human resource analysis.
+* Others
+
+#### Natural Language Processing
+
+After gained experience in regression and classification algorithms, this module covers the fundamentals of text analysis, and its different aspects.
+
+Multiple business cases where text data and semi-structured data are analyzed. Word counting techniques, text cleaning, identification of relevant entities, rare word isolation and sentiment analysis will be shown. ​Practical applications:
+
+* Analysis of customer opinions.
+* Analysis of marketing campaigns.
+* Social network analysis.
+* Others
 
 #### Interested?&#x20;
 
