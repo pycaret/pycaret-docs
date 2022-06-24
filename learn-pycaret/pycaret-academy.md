@@ -4,7 +4,7 @@ description: Data Science for Business Analysts
 
 # PyCaret Academy
 
-#### Learn Python and apply Machine Learning to business cases
+### Learn Python and apply Machine Learning to business cases
 
 We are excited to announce the launch of 'Data Science for Business Analyst' course using Python with multiple low-code libraries to perform the end-to-end cycle of Machine Learning.
 
@@ -12,7 +12,7 @@ This course is designed for **any professional** who uses data to do its work an
 
 Our method is validated with more than 400 global students, 93.4% of them are professionals or business analysts not related to computer science nor systems engineering, at all.
 
-**What will you be able to do at the end of this course?**
+### **What will you be able to do at the end of this course?**
 
 * Apply **advanced analytics** to multiple business cases. &#x20;
 * Develop **machine learning apps** in production with **Python** .  &#x20;
@@ -21,11 +21,11 @@ Our method is validated with more than 400 global students, 93.4% of them are pr
 
 You will work with your own data and will be able to develop your own projects. You will learn the fundamentals of programming in Python and you will have the opportunity to continue developing your programming skills.
 
-**Prerequisites**
+### **Prerequisites**
 
 Moderate experience in data analysis with spreadsheets (Excel) and desire to learn. You don't need programming experience.&#x20;
 
-**Additional benefits**
+### **Additional benefits**
 
 A free copy of [_Machine Learning in Power BI with R and Python_](https://www.lulu.com/shop/gabriel-gomez-and-pablo-j-moreno/machine-learning-in-power-bi-with-r-and-python/paperback/product-8qwdk7.html?q=machine+learning+in+power+bi\&page=1\&pageSize=4) (ebook and book format)
 
@@ -47,7 +47,7 @@ This training is also available **in-company** or as part of any existing **educ
 * Agri-business
 * And much more…
 
-#### Details
+### Details
 
 Available seats:    100&#x20;
 
@@ -61,7 +61,7 @@ Date of Start:       October 2021
 
 Accreditation:      National University of Engineering
 
-#### Course Content
+### Course Content
 
 #### Introduction and fundamentals
 
