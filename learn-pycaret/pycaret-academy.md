@@ -4,7 +4,7 @@ description: Data Science for Business Analysts
 
 # PyCaret Academy
 
-### Learn Python and apply Machine Learning to business cases
+### Learn Python and apply Machine Learning to business
 
 We are excited to announce the launch of 'Data Science for Business Analyst' course using Python with multiple low-code libraries to perform the end-to-end cycle of Machine Learning.
 
