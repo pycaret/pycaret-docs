@@ -6,7 +6,7 @@ coverY: 0
 # Welcome to PyCaret
 
 {% hint style="success" %}
-PyCaret 3.0-rc is now out. `pip install --pre pycaret` to use it. Check out this [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
+**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to use it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
 {% endhint %}
 
 {% hint style="info" %}
@@ -76,23 +76,19 @@ PyCaret and its Machine Learning capabilities are seamlessly integrated with env
 
 ![](<.gitbook/assets/image (243).png>)
 
-## Time Series Module (beta)
+## Time Series Module
 
-PyCaret new time series module is now available in beta. Staying true to the simplicity of PyCaret, it is consistent with our existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/time\_series\_beta/time\_series\_101.ipynb) notebook.
+PyCaret **new time series module** is now available in the `3.0-rc`. Staying true to the simplicity of PyCaret, it is consistent with the existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/time\_series\_beta/time\_series\_101.ipynb) notebook.
 
 * 📚 [Time Series Docs](https://pycaret.readthedocs.io/en/time\_series/api/time\_series.html)
 * ❓ [Time Series FAQs](https://github.com/pycaret/pycaret/discussions/categories/faqs?discussions\_q=category%3AFAQs+label%3Atime\_series)
 * 🚀 [Features and Roadmap](https://github.com/pycaret/pycaret/issues/1648)
 
-To install this module in beta:
+To use PyCaret's time series module you can install `PyCaret 3.0-rc`.
 
 ```
-pip install pycaret-ts-alpha
+pip install --pre pycaret
 ```
-
-{% hint style="danger" %}
-PyCaret's time series module is in `beta`. We are doing weekly pip releases. When installing `pycaret-ts-alpha you`must create a separate python environment to avoid conflicts with the main `pycaret` library.&#x20;
-{% endhint %}
 
 ## Core Team
 
