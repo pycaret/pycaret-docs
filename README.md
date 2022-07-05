@@ -5,17 +5,13 @@ coverY: 0
 
 # Welcome to PyCaret
 
-{% hint style="success" %}
-PyCaret 3.0-rc is now out. `pip install --pre pycaret` to use it. Check out this [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
-{% endhint %}
-
 {% hint style="info" %}
-**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
+**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to try it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
 {% endhint %}
 
 PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows. It is an end-to-end machine learning and model management tool that exponentially speeds up the experiment cycle and makes you more productive.
 
-Compared with the other open-source machine learning libraries, PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with few lines only. This makes experiments exponentially fast and efficient. PyCaret is essentially a Python wrapper around several machine learning libraries and frameworks such as scikit-learn, XGBoost, LightGBM, CatBoost, spaCy, Optuna, Hyperopt, Ray, and a few more.
+Compared with the other open-source machine learning libraries, PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with a few lines only. This makes experiments exponentially fast and efficient. PyCaret is essentially a Python wrapper around several machine learning libraries and frameworks, such as scikit-learn, XGBoost, LightGBM, CatBoost, spaCy, Optuna, Hyperopt, Ray, and a few more.
 
 The design and simplicity of PyCaret are inspired by the emerging role of citizen data scientists, a term first used by Gartner. Citizen Data Scientists are power users who can perform both simple and moderately sophisticated analytical tasks that would previously have required more technical expertise.
 
@@ -76,23 +72,19 @@ PyCaret and its Machine Learning capabilities are seamlessly integrated with env
 
 ![](<.gitbook/assets/image (243).png>)
 
-## Time Series Module (beta)
+### Time Series
 
-PyCaret new time series module is now available in beta. Staying true to the simplicity of PyCaret, it is consistent with our existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/time\_series\_beta/time\_series\_101.ipynb) notebook.
+PyCaret **new time series module** is now available in the `3.0-rc`. Staying true to the simplicity of PyCaret, it is consistent with the existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/time\_series\_beta/time\_series\_101.ipynb) notebook.
 
 * 📚 [Time Series Docs](https://pycaret.readthedocs.io/en/time\_series/api/time\_series.html)
 * ❓ [Time Series FAQs](https://github.com/pycaret/pycaret/discussions/categories/faqs?discussions\_q=category%3AFAQs+label%3Atime\_series)
 * 🚀 [Features and Roadmap](https://github.com/pycaret/pycaret/issues/1648)
 
-To install this module in beta:
+To use PyCaret's time series module you can install `PyCaret 3.0-rc`.
 
 ```
-pip install pycaret-ts-alpha
+pip install --pre pycaret
 ```
-
-{% hint style="danger" %}
-PyCaret's time series module is in `beta`. We are doing weekly pip releases. When installing `pycaret-ts-alpha you`must create a separate python environment to avoid conflicts with the main `pycaret` library.&#x20;
-{% endhint %}
 
 ## Core Team
 

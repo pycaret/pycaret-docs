@@ -5,7 +5,7 @@ description: Frequently Asked Questions!
 # ❓ FAQs
 
 {% hint style="info" %}
-**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
+**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to try it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
 {% endhint %}
 
 <details>

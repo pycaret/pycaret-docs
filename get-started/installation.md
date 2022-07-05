@@ -5,7 +5,7 @@ description: Learn how to install PyCaret
 # 💻 Installation
 
 {% hint style="info" %}
-**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to use it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
+**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to try it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
 {% endhint %}
 
 ## Install
