@@ -5,7 +5,7 @@ description: Quick start guide to PyCaret
 # 🚀 Quickstart
 
 {% hint style="info" %}
-**Help us improve the documentation!** If you found a broken link or a typo or would like to contribute to this documentation, please submit a pull request on [pycaret-docs](https://github.com/pycaret/pycaret-docs) repo.
+**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to use it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
 {% endhint %}
 
 ## Introduction
@@ -585,13 +585,9 @@ plot_model(model, plot = '3d')
 
 ![Output from plot\_model(...)](<../.gitbook/assets/image (508).png>)
 
-## Time Series (beta)
+## Time Series
 
-{% hint style="warning" %}
-**NOTE:** PyCaret time series forecasting module is in beta. It is recommended to create a separate conda environment for use. You can install it with `pip install pycaret-ts-alpha.`
-{% endhint %}
-
-PyCaret's new time series module is now available in beta. Staying true to the simplicity of PyCaret, it is consistent with our existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code.
+PyCaret's new time series module is now available in `3.0-rc`. Staying true to the simplicity of PyCaret, it is consistent with our existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code.
 
 ### Setup
 
