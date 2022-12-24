@@ -154,7 +154,7 @@ rf = create_model('rf')
 finalize_model(rf)
 ```
 
-![Output from finalize\_model(rf)](<../../.gitbook/assets/image (350).png>)
+![Output from finalize\_model(rf)](<../../.gitbook/assets/image (511).png>)
 
 This function doesn't change any parameter of the model. It only refits on the entire dataset including the hold-out set.
 
@@ -181,7 +181,7 @@ final_lr = finalize_model(lr)
 deploy_model(final_lr, model_name = 'lr_aws', platform = 'aws', authentication = { 'bucket'  : 'pycaret-test' })
 ```
 
-![Output from deploy\_model(...)](<../../.gitbook/assets/image (473).png>)
+![Output from deploy\_model(...)](<../../.gitbook/assets/image (274).png>)
 
 ### AWS
 

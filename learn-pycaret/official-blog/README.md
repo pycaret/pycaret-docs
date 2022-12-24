@@ -18,7 +18,7 @@ description: Official blog written by the developers of PyCaret
 ### Machine Learning Use Cases
 
 * [Predict Customer Churn](predict-customer-churn-using-pycaret.md)
-* [Predict Lead Conversion Score](predict-lead-score-the-right-way-using-pycaret-1.md)
+* [Predict Lead Conversion Score](predict-lead-score-the-right-way-using-pycaret.md)
 * [Predict Crash in Gold Prices](predicting-crashes-in-gold-prices-using-pycaret.md)
 * [Predict Gold Prices using Machine Learning](predicting-gold-prices-using-machine-learning.md)
 

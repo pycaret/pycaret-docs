@@ -264,7 +264,7 @@ top5 = compare_models()
 get_logs()
 ```
 
-![Output from get\_logs()](<../../.gitbook/assets/image (83).png>)
+![Output from get\_logs()](<../../.gitbook/assets/image (356) (1).png>)
 
 ## **get\_system\_logs**
 
@@ -286,4 +286,4 @@ from pycaret.utils import get_system_logs
 get_system_logs()
 ```
 
-![](<../../.gitbook/assets/image (227).png>)
+![](<../../.gitbook/assets/image (469).png>)

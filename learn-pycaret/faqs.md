@@ -308,6 +308,6 @@ The review process may take some time. You should not be discouraged by delays i
 
 Well, PyCaret is built on top of common ML libraries and frameworks such as scikit-learn, LightGBM, XGBoost, etc. The benefit of using PyCaret is you don't have to write a lot of code. The underlying models and evaluation framework is the same as what you are used to. When we first created PyCaret we did a small comparison of performing a given set of tasks using PyCaret vs. without using PyCaret and here are the results:
 
-![](<../.gitbook/assets/image (266).png>)
+![](<../.gitbook/assets/image (202).png>)
 
 </details>

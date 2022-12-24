@@ -96,7 +96,7 @@ plot_model(lr, plot = 'confusion_matrix', plot_kwargs = {'percent' : True})
 
 {% tabs %}
 {% tab title="Before Customization" %}
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (163).png>)
 {% endtab %}
 
 {% tab title="After Customization" %}
@@ -168,61 +168,61 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="auc" %}
-![](<../../.gitbook/assets/image (339).png>)
+![](<../../.gitbook/assets/image (186).png>)
 {% endtab %}
 
 {% tab title="confusion_matrix" %}
-![](<../../.gitbook/assets/image (446).png>)
+![](<../../.gitbook/assets/image (248).png>)
 {% endtab %}
 
 {% tab title="threshold" %}
-![](<../../.gitbook/assets/image (132).png>)
+![](<../../.gitbook/assets/image (101).png>)
 {% endtab %}
 
 {% tab title="pr" %}
-![](<../../.gitbook/assets/image (207) (1).png>)
+![](<../../.gitbook/assets/image (408).png>)
 {% endtab %}
 
 {% tab title="error" %}
-![](<../../.gitbook/assets/image (369).png>)
+![](<../../.gitbook/assets/image (537).png>)
 {% endtab %}
 
 {% tab title="class_report" %}
-![](<../../.gitbook/assets/image (386).png>)
+![](<../../.gitbook/assets/image (41).png>)
 {% endtab %}
 
 {% tab title="rfe" %}
-![](<../../.gitbook/assets/image (354).png>)
+![](<../../.gitbook/assets/image (404).png>)
 {% endtab %}
 
 {% tab title="learning" %}
-![](<../../.gitbook/assets/image (95).png>)
+![](<../../.gitbook/assets/image (200) (1).png>)
 {% endtab %}
 
 {% tab title="vc" %}
-![](<../../.gitbook/assets/image (503).png>)
+![](<../../.gitbook/assets/image (23).png>)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="feature" %}
-![](<../../.gitbook/assets/image (97).png>)
+![](<../../.gitbook/assets/image (102).png>)
 {% endtab %}
 
 {% tab title="manifold" %}
-![](<../../.gitbook/assets/image (466).png>)
+![](<../../.gitbook/assets/image (35) (1).png>)
 {% endtab %}
 
 {% tab title="calibration" %}
-![](<../../.gitbook/assets/image (337).png>)
+![](<../../.gitbook/assets/image (296).png>)
 {% endtab %}
 
 {% tab title="dimension" %}
-![](<../../.gitbook/assets/image (199).png>)
+![](<../../.gitbook/assets/image (12).png>)
 {% endtab %}
 
 {% tab title="boundary" %}
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (185).png>)
 {% endtab %}
 
 {% tab title="lift" %}
@@ -259,35 +259,35 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="residuals" %}
-![](<../../.gitbook/assets/image (140).png>)
+![](<../../.gitbook/assets/image (455).png>)
 {% endtab %}
 
 {% tab title="error" %}
-![](<../../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (63).png>)
 {% endtab %}
 
 {% tab title="cooks" %}
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (217) (1).png>)
 {% endtab %}
 
 {% tab title="rfe" %}
-![](<../../.gitbook/assets/image (381).png>)
+![](<../../.gitbook/assets/image (103).png>)
 {% endtab %}
 
 {% tab title="feature" %}
-![](<../../.gitbook/assets/image (470).png>)
+![](<../../.gitbook/assets/image (142) (3).png>)
 {% endtab %}
 
 {% tab title="learning" %}
-![](<../../.gitbook/assets/image (110) (1).png>)
+![](<../../.gitbook/assets/image (314).png>)
 {% endtab %}
 
 {% tab title="vc" %}
-![](<../../.gitbook/assets/image (214).png>)
+![](<../../.gitbook/assets/image (377).png>)
 {% endtab %}
 
 {% tab title="manifold" %}
-![](<../../.gitbook/assets/image (496).png>)
+![](<../../.gitbook/assets/image (167) (2).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -304,27 +304,27 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="cluster" %}
-![](<../../.gitbook/assets/image (371).png>)
+![](<../../.gitbook/assets/image (273).png>)
 {% endtab %}
 
 {% tab title="tsne" %}
-![](<../../.gitbook/assets/image (433).png>)
+![](<../../.gitbook/assets/image (330) (1).png>)
 {% endtab %}
 
 {% tab title="elbow" %}
-![](<../../.gitbook/assets/image (410).png>)
+![](<../../.gitbook/assets/image (203).png>)
 {% endtab %}
 
 {% tab title="silhouette" %}
-![](<../../.gitbook/assets/image (149).png>)
+![](<../../.gitbook/assets/image (348).png>)
 {% endtab %}
 
 {% tab title="distance" %}
-![](<../../.gitbook/assets/image (25) (1).png>)
+![](<../../.gitbook/assets/image (205).png>)
 {% endtab %}
 
 {% tab title="distribution" %}
-![](<../../.gitbook/assets/image (517).png>)
+![](<../../.gitbook/assets/image (180).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -337,11 +337,11 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="tsne" %}
-![](<../../.gitbook/assets/image (378) (1).png>)
+![](<../../.gitbook/assets/image (306).png>)
 {% endtab %}
 
 {% tab title="umap" %}
-![](<../../.gitbook/assets/image (396).png>)
+![](<../../.gitbook/assets/image (104).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -363,49 +363,49 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="frequency" %}
-![](<../../.gitbook/assets/image (490).png>)
+![](<../../.gitbook/assets/image (238).png>)
 {% endtab %}
 
 {% tab title="distribution" %}
-![](<../../.gitbook/assets/image (169).png>)
+![](<../../.gitbook/assets/image (429).png>)
 {% endtab %}
 
 {% tab title="bigram" %}
-![](<../../.gitbook/assets/image (422).png>)
+![](<../../.gitbook/assets/image (192) (2).png>)
 {% endtab %}
 
 {% tab title="trigram" %}
-![](<../../.gitbook/assets/image (175).png>)
+![](<../../.gitbook/assets/image (6).png>)
 {% endtab %}
 
 {% tab title="sentiment" %}
-![](<../../.gitbook/assets/image (435).png>)
+![](<../../.gitbook/assets/image (352).png>)
 {% endtab %}
 
 {% tab title="pos" %}
-![](<../../.gitbook/assets/image (194).png>)
+![](<../../.gitbook/assets/image (364).png>)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="tsne" %}
-![](<../../.gitbook/assets/image (460).png>)
+![](<../../.gitbook/assets/image (156) (1).png>)
 {% endtab %}
 
 {% tab title="umap" %}
-![](<../../.gitbook/assets/image (431).png>)
+![](<../../.gitbook/assets/image (119).png>)
 {% endtab %}
 
 {% tab title="wordcloud" %}
-![](<../../.gitbook/assets/image (187).png>)
+![](<../../.gitbook/assets/image (532).png>)
 {% endtab %}
 
 {% tab title="topic_distribution" %}
-![](<../../.gitbook/assets/image (298).png>)
+![](<../../.gitbook/assets/image (100) (1).png>)
 {% endtab %}
 
 {% tab title="topic_model" %}
-![](<../../.gitbook/assets/image (249).png>)
+![](<../../.gitbook/assets/image (279).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -413,11 +413,11 @@ plot_model(lr, plot = 'auc', use_train_data = True)
 
 {% tabs %}
 {% tab title="2d" %}
-![](<../../.gitbook/assets/image (158).png>)
+![](<../../.gitbook/assets/image (437).png>)
 {% endtab %}
 
 {% tab title="3d" %}
-![](<../../.gitbook/assets/image (218).png>)
+![](<../../.gitbook/assets/image (275).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -469,7 +469,7 @@ xgboost = create_model('xgboost')
 interpret_model(xgboost)
 ```
 
-![Output from interpret\_model(xgboost)](<../../.gitbook/assets/image (303).png>)
+![Output from interpret\_model(xgboost)](<../../.gitbook/assets/image (482).png>)
 
 ### Save the plot
 
@@ -707,7 +707,7 @@ dashboard(lr)
 
 ![Dashboard (Classification Metrics)](<../../.gitbook/assets/image (64).png>)
 
-![Dashboard (Individual Predictions)](<../../.gitbook/assets/image (501).png>)
+![Dashboard (Individual Predictions)](<../../.gitbook/assets/image (118).png>)
 
 ![Dashboard (What-if analysis)](<../../.gitbook/assets/image (293).png>)
 

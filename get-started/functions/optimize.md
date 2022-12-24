@@ -60,7 +60,7 @@ dt = create_model('dt')
 tuned_dt = tune_model(dt, n_iter = 50)
 ```
 
-![Output from tune\_model(dt, n\_iter = 50)](<../../.gitbook/assets/image (244).png>)
+![Output from tune\_model(dt, n\_iter = 50)](<../../.gitbook/assets/image (183).png>)
 
 #### Comparison of 10 and 50 iterations
 

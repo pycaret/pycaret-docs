@@ -81,7 +81,7 @@ To initialize the `MLflow` server you must run the following command from within
 !mlflow ui
 ```
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../.gitbook/assets/image (215).png>)
 
 To learn more about experiment tracking in PyCaret, [see this page](../preprocessing/other-setup-parameters.md#experiment-logging).
 

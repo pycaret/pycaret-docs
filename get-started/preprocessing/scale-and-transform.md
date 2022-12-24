@@ -29,7 +29,7 @@ clf1 = setup(data = pokemon, target = 'Legendary', normalize = True)
 
 #### **Before**
 
-![](<../../.gitbook/assets/image (359).png>)
+![](<../../.gitbook/assets/image (193).png>)
 
 #### **After**
 
@@ -64,7 +64,7 @@ clf1 = setup(data = pokemon, target = 'Legendary', transformation = True)
 
 #### **Before**
 
-![Dataframe view before transformation](<../../.gitbook/assets/image (193).png>)
+![Dataframe view before transformation](<../../.gitbook/assets/image (359).png>)
 
 #### **After**
 
@@ -72,7 +72,7 @@ clf1 = setup(data = pokemon, target = 'Legendary', transformation = True)
 
 #### Effect of Feature Transformation:
 
-![](<../../.gitbook/assets/image (444).png>)
+![](<../../.gitbook/assets/image (188) (1).png>)
 
 ### Target Transform
 

@@ -25,7 +25,7 @@ clf1 = setup(data = diabetes, target = 'Class variable', feature_selection = Tru
 
 #### **Before**
 
-![Dataframe before feature importance](<../../.gitbook/assets/image (372).png>)
+![Dataframe before feature importance](<../../.gitbook/assets/image (312).png>)
 
 #### **After** 
 
@@ -127,7 +127,7 @@ clf1 = setup(data = mice, target = 'class', ignore_low_variance = True)
 
 #### **Before**
 
-![Dataframe view before ignore low variance](<../../.gitbook/assets/image (105).png>)
+![Dataframe view before ignore low variance](<../../.gitbook/assets/image (242).png>)
 
 #### **After**
 
