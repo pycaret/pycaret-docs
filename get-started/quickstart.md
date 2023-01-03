@@ -18,7 +18,7 @@ Select your use case:
 * [Anomaly Detection](quickstart.md#anomaly-detection)
 * [Natural Language Processing](quickstart.md#natural-language-processing)
 * [Association Rules Mining](quickstart.md#association-rules-mining)
-* [Time Series (beta)](quickstart.md#time-series-beta)
+* [Time Series (beta)](quickstart.md#time-series)
 
 ## Classification
 
