@@ -68,12 +68,12 @@ Association rule learning is a rule-based machine learning method for discoverin
 {% endtab %}
 
 {% tab title="Time Series" %}
-### [Time Series (beta)](quickstart.md#time-series-beta)
+### [Time Series (beta)](quickstart.md#time-series)
 
 Time series forecasting is the process of analyzing time series data using statistics and modeling to make predictions and inform strategic decision-making
 
-* ****[**Quickstart**](quickstart.md#time-series-beta)****
-* ****[**API Docs**](https://pycaret.readthedocs.io/en/time\_series/api/time\_series.html)****
+* ****[**Quickstart**](quickstart.md#time-series)****
+* ****[**API Docs**](https://pycaret.readthedocs.io/en/latest/api/time_series.html)****
 * ****[**Tutorial**](tutorials.md)
 {% endtab %}
 
