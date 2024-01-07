@@ -74,9 +74,9 @@
 ## IMPORTANT LINKS
 
 * [⚙ API Reference](https://pycaret.readthedocs.io/en/latest/)
-* [🙋♂ Discussions](https://github.com/pycaret/pycaret/discussions)
+* [🙋    Discussions](https://github.com/pycaret/pycaret/discussions)
 * [📤 Issues](https://github.com/pycaret/pycaret/issues)
-* [👮♂ License](https://github.com/pycaret/pycaret/blob/master/LICENSE)
+* [👮    License](https://github.com/pycaret/pycaret/blob/master/LICENSE)
 
 ## MEDIA
 
@@ -84,4 +84,4 @@
 * [📺 YouTube](https://www.youtube.com/channel/UCxA1YTYJ9BEeo50lxyI\_B3g)
 * [🔗 LinkedIn](https://www.linkedin.com/company/pycaret)
 * [😾 GitHub](https://www.github.com/pycaret/pycaret)
-* [# Stack Overflow](https://stackoverflow.com/questions/tagged/pycaret)
+* [💁 Stack Overflow](https://stackoverflow.com/questions/tagged/pycaret)

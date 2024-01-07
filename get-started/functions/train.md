@@ -426,7 +426,7 @@ lr = create_model('lr', probability_threshold = 0.25)
 print(lr)
 ```
 
-![Output from print(lr)](<../../.gitbook/assets/image (349).png>)
+![Output from print(lr)](<../../.gitbook/assets/image (407).png>)
 
 ### Train models in a loop
 

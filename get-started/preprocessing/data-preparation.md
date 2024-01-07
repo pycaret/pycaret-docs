@@ -37,7 +37,7 @@ clf1 = setup(data = hepatitis, target = 'Class')
 
 #### **After**
 
-![](<../../.gitbook/assets/image (211).png>)
+![](<../../.gitbook/assets/image (144) (1).png>)
 
 #### Comparison of Simple imputer vs. Iterative imputer
 
@@ -98,11 +98,11 @@ clf1 = setup(data = pokemon, target = 'Legendary', ignore_features = ['#', 'Name
 
 #### Before
 
-![](<../../.gitbook/assets/image (151).png>)
+![](<../../.gitbook/assets/image (294).png>)
 
 #### After
 
-![](<../../.gitbook/assets/image (255).png>)
+![](<../../.gitbook/assets/image (82).png>)
 
 ### One-Hot Encoding
 
@@ -268,7 +268,7 @@ from pycaret.regression import *
 reg1 = setup(data = insurance, target = 'charges', remove_outliers = True)
 ```
 
-![](<../../.gitbook/assets/image (399).png>)
+![](<../../.gitbook/assets/image (419).png>)
 
 #### Before and After removing outliers
 

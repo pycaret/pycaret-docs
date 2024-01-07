@@ -1,5 +1,7 @@
 ---
 description: An open-source, low-code machine learning library in Python
+cover: >-
+  https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxncmFkaWVudHxlbnwwfHx8fDE2NzY4NTQ4Mjk&ixlib=rb-4.0.3&q=80
 coverY: 0
 ---
 
@@ -74,9 +76,9 @@ PyCaret and its Machine Learning capabilities are seamlessly integrated with env
 
 ### Time Series
 
-PyCaret **new time series module** is now available in the `3.0-rc`. Staying true to the simplicity of PyCaret, it is consistent with the existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/master/examples/time_series/forecasting/time_series_101.ipynb) notebook.
+PyCaret **new time series module** is now available in the `3.0-rc`. Staying true to the simplicity of PyCaret, it is consistent with the existing API and fully loaded with functionalities. Statistical testing, model training and selection (30+ algorithms), model analysis, automated hyperparameter tuning, experiment logging, deployment on cloud, and more. All of this with only a few lines of code. If you would like to give it a try, check out our official [quick start](https://nbviewer.org/github/pycaret/pycaret/blob/master/examples/time\_series/forecasting/time\_series\_101.ipynb) notebook.
 
-* 📚 [Time Series Docs](https://pycaret.readthedocs.io/en/latest/api/time_series.html)
+* 📚 [Time Series Docs](https://pycaret.readthedocs.io/en/latest/api/time\_series.html)
 * ❓ [Time Series FAQs](https://github.com/pycaret/pycaret/discussions/categories/faqs?discussions\_q=category%3AFAQs+label%3Atime\_series)
 * 🚀 [Features and Roadmap](https://github.com/pycaret/pycaret/issues/1648)
 

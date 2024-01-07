@@ -4,8 +4,6 @@ description: Cheat sheets with summary of all functions and modules
 
 # 🛩 Cheat sheet
 
-![Cheat Sheet Page 1 of 2](<../.gitbook/assets/image (415).png>)
+<figure><img src="../.gitbook/assets/pycaret1.png" alt=""><figcaption></figcaption></figure>
 
-![Cheat Sheet Page 2 of 2](<../.gitbook/assets/image (15).png>)
-
-{% file src="../.gitbook/assets/PyCaret_2-3-6_cheat_sheet.pdf" %}
+{% file src="../.gitbook/assets/PyCaret 3.0 cheat_sheet.pdf" %}

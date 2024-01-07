@@ -56,7 +56,7 @@ To initialize `MLflow` server you must run the following command from within the
 !mlflow ui
 ```
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (215) (1).png>)
 
 #### Configure MLflow tracking server
 

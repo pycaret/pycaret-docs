@@ -88,7 +88,7 @@ plot_model(best, plot = 'auc')
 plot_model(best, plot = 'confusion_matrix')
 ```
 
-![](<../.gitbook/assets/image (117).png>)
+![](<../.gitbook/assets/image (61).png>)
 
 ### Predictions
 
@@ -181,7 +181,7 @@ best = compare_models()
 print(best)
 ```
 
-![](<../.gitbook/assets/image (538).png>)
+![](<../.gitbook/assets/image (412).png>)
 
 ### Analyze Model
 
@@ -333,7 +333,7 @@ predictions = predict_model(kmeans, data = data)
 predictions.head()
 ```
 
-![](<../.gitbook/assets/image (325).png>)
+![](<../.gitbook/assets/image (319) (1).png>)
 
 ### Save the model
 
@@ -365,7 +365,7 @@ from pycaret.datasets import get_data
 data = get_data('anomaly')
 ```
 
-![](<../.gitbook/assets/image (505).png>)
+![](<../.gitbook/assets/image (380).png>)
 
 ```
 from pycaret.anomaly import *
@@ -391,13 +391,13 @@ iforest = create_model('iforest')
 print(iforest)
 ```
 
-![](<../.gitbook/assets/image (451) (1).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 ```
 models()
 ```
 
-![](<../.gitbook/assets/image (402).png>)
+![](<../.gitbook/assets/image (302).png>)
 
 ### Analyze Model
 
@@ -422,7 +422,7 @@ result = assign_model(iforest)
 result.head()
 ```
 
-![](<../.gitbook/assets/image (94).png>)
+![](<../.gitbook/assets/image (326) (1).png>)
 
 ### Predictions
 
