@@ -1,15 +1,13 @@
----
-description: An open-source, low-code machine learning library in Python
-cover: >-
-  https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxncmFkaWVudHxlbnwwfHx8fDE2NzY4NTQ4Mjk&ixlib=rb-4.0.3&q=80
-coverY: 0
----
+<div align="center">
+<img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxncmFkaWVudHxlbnwwfHx8fDE2NzY4NTQ4Mjk&ixlib=rb-4.0.3&q=80" alt="drawing" width=100% height=150/>
+
+### An open-source, low-code machine learning library in Python
 
 # Welcome to PyCaret
 
-{% hint style="info" %}
-**PyCaret 3.0-rc is now available**. `pip install --pre pycaret` to try it. Check out this example [Notebook](https://colab.research.google.com/drive/1\_H0sHYhzKGZDmgzrQLosuZAR3nOaL6CN?usp=sharing).
-{% endhint %}
+**PyCaret 3.0-rc is now available**. 
+To try : `pip install --pre pycaret`
+</div>
 
 PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows. It is an end-to-end machine learning and model management tool that exponentially speeds up the experiment cycle and makes you more productive.
 
@@ -19,17 +17,17 @@ The design and simplicity of PyCaret are inspired by the emerging role of citize
 
 ## Quick Links
 
-| ⭐ [**Tutorials**](get-started/tutorials.md)****                             | Checkout our official notebooks!        |
+| ⭐ [**Tutorials**](get-started/tutorials.md)                             | Checkout our official notebooks!        |
 | --------------------------------------------------------------------------- | --------------------------------------- |
-| 📋 [**Examples**](learn-pycaret/examples.md)****                            | Example notebooks.                      |
-| 📙 [**Blog**](learn-pycaret/official-blog/)****                             | Tutorials and articles by contributors. |
+| 📋 [**Examples**](learn-pycaret/examples.md)                            | Example notebooks.                      |
+| 📙 [**Blog**](learn-pycaret/official-blog/)                             | Tutorials and articles by contributors. |
 | 📚 [**API Reference**](https://pycaret.readthedocs.io/en/latest/index.html) | The detailed API docs of PyCaret        |
-| 📺 [**Video Tutorials**](learn-pycaret/videos.md)****                       | Our video tutorial from various events. |
+| 📺 [**Video Tutorials**](learn-pycaret/videos.md)                       | Our video tutorial from various events. |
 | 📢 [**Discussions**](https://github.com/pycaret/pycaret/discussions)        | Engage with community and contributors. |
-| 🛠️ [**Changelog**](get-started/release-notes.md)****                       | Changes and version history.            |
+| 🛠️ [**Changelog**](get-started/release-notes.md)                       | Changes and version history.            |
 | :question:[**FAQs**](learn-pycaret/faqs.md)                                 | Frequently Asked Questions              |
 | 🌳 [**Roadmap**](https://github.com/pycaret/pycaret/issues/1756)            | PyCaret's development plan.             |
-| :m: [**Meetup**](https://www.meetup.com/pycaret-user-group/)****            | Join our Meetup user group.             |
+| :m: [**Meetup**](https://www.meetup.com/pycaret-user-group/)            | Join our Meetup user group.             |
 
 ## Features
 
@@ -88,29 +86,9 @@ To use PyCaret's time series module you can install `PyCaret 3.0-rc`.
 pip install --pre pycaret
 ```
 
-## Core Team
 
-The following people are currently core contributors to PyCaret's development and maintenance:
 
-{% embed url="https://github.com/moezali1" %}
-
-{% embed url="https://github.com/Yard1" %}
-
-{% embed url="https://github.com/ngupta23" %}
-
-{% embed url="https://github.com/tvdboom" %}
-
-{% embed url="https://github.com/wkuopt" %}
-
-{% embed url="https://github.com/mfahadakbar" %}
-
-{% embed url="https://github.com/PabloJMoreno" %}
-
-{% embed url="https://github.com/reza1615" %}
-
-{% hint style="info" %}
-**Contribute to PyCaret!** If you would like to contribute to this project, please see our [Contribution Guidelines](https://github.com/pycaret/pycaret/blob/master/CONTRIBUTING.md).
-{% endhint %}
+**Contribute to PyCaret!** If you would like to contribute to this project, please see our [Contribution Guidelines](https://github.com/pycaret/pycaret/blob/master/CONTRIBUTING.md)
 
 ## Documentation
 
@@ -119,9 +97,9 @@ This documentation is being developed and maintained by:
 * [Moez Ali](https://www.linkedin.com/in/profile-moez/)
 * [Pablo Moreno](https://www.linkedin.com/in/pablo-moreno-363188150/)
 
-{% hint style="info" %}
+
 **Contribute!** If you would like to join our documentation team and help us build and maintain this awesome documentation for the community, join the **#docs-revamp** channel on our [Slack](https://join.slack.com/t/pycaret/shared\_invite/zt-row9phbm-BoJdEVPYnGf7\_NxNBP307w).
-{% endhint %}
+
 
 ## Contributors
 
